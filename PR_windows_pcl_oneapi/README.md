@@ -66,3 +66,7 @@ __CUB_ALIGN_BYTES(sycl::ulong2, 8)
 ```
 
 ## Test oneapi
+### 1. 
+CMakeLists.txt
+ set(CMAKE_CXX_FLAGS_RELEASE "-O3 /EHa /QxCORE-AVX2 /fp:fast") 修改为
+ set(CMAKE_CXX_FLAGS_RELEASE "-O3 /EHa /QxCORE-AVX2")
