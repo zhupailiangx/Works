@@ -41,6 +41,8 @@ set_target_properties(${_name} PROPERTIES VS_PLATFORM_TOOLSET ${INTEL_DPCPP_COMP
 endif()
 ```
 ###
+oneapi/containers/CMakeLists.txt,oneapi/features/CMakeLists.txt,oneapi/filters/CMakeLists.txt,oneapi/kdtree/CMakeLists.txt,oneapi/octree/CMakeLists.txt,oneapi/registration/CMakeLists.txt,oneapi/registration_omp/CMakeLists.txt,oneapi/sample_consensus/CMakeLists.txt,oneapi/search/CMakeLists.txt,oneapi/segmentation/CMakeLists.txt,oneapi/surface/CMakeLists.txt,oneapi/surface_omp/CMakeLists.txt,
+删除
 ```
 if(WIN32)
 set_target_properties(${LIB_NAME} PROPERTIES VS_PLATFORM_TOOLSET ${INTEL_DPCPP_COMPILER} )
