@@ -64,3 +64,5 @@ oneapi/utils/include/pcl/oneapi/utils/device/sort/util_type.hpp
 __CUB_ALIGN_BYTES(sycl::long2, 8)
 __CUB_ALIGN_BYTES(sycl::ulong2, 8)
 ```
+
+## Test oneapi
