@@ -40,4 +40,10 @@ if (WIN32)
 set_target_properties(${_name} PROPERTIES VS_PLATFORM_TOOLSET ${INTEL_DPCPP_COMPILER})
 endif()
 ```
+###
+```
+if(WIN32)
+set_target_properties(${LIB_NAME} PROPERTIES VS_PLATFORM_TOOLSET ${INTEL_DPCPP_COMPILER} )
+endif()
+```
 
