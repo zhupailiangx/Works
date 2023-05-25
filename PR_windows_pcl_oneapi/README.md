@@ -28,6 +28,16 @@ target_link_libraries("${LIB_NAME}" pcl_common pcl_oneapi_containers)
 endif()
 ```
 修改为
+```
 IF(WIN32)
 target_link_libraries("${LIB_NAME}" pcl_common pcl_oneapi_containers)
 endif()
+```
+### 3. 
+oneapi/cmake/pcl_targets.cmake, 254 行添加
+```
+if (WIN32)
+set_target_properties(${_name} PROPERTIES VS_PLATFORM_TOOLSET ${INTEL_DPCPP_COMPILER})
+endif()
+```
+
