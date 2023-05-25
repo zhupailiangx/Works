@@ -17,3 +17,5 @@ endif()
 
 
 ### ONEAPI
+### 1.
+oneapi/CMakeLists.txt 中set(CMAKE_CXX_FLAGS_RELEASE "-O3 /EHa /QxCORE-AVX2 /fp:fast") 修改为set(CMAKE_CXX_FLAGS_RELEASE "-O3 /EHa /QxCORE-AVX2")
