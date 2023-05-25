@@ -40,7 +40,7 @@ if (WIN32)
 set_target_properties(${_name} PROPERTIES VS_PLATFORM_TOOLSET ${INTEL_DPCPP_COMPILER})
 endif()
 ```
-###
+### 4.
 oneapi/containers/CMakeLists.txt,oneapi/features/CMakeLists.txt,oneapi/filters/CMakeLists.txt,oneapi/kdtree/CMakeLists.txt,oneapi/octree/CMakeLists.txt,oneapi/registration/CMakeLists.txt,oneapi/registration_omp/CMakeLists.txt,oneapi/sample_consensus/CMakeLists.txt,oneapi/search/CMakeLists.txt,oneapi/segmentation/CMakeLists.txt,oneapi/surface/CMakeLists.txt,oneapi/surface_omp/CMakeLists.txt,
 删除
 ```
@@ -48,4 +48,19 @@ if(WIN32)
 set_target_properties(${LIB_NAME} PROPERTIES VS_PLATFORM_TOOLSET ${INTEL_DPCPP_COMPILER} )
 endif()
 ```
-
+### 5.
+oneapi/utils/include/pcl/oneapi/utils/device/sort/util_type.hpp
+```
+#ifdef _WIN32
+    __CUB_ALIGN_BYTES(sycl::long2, 8)
+    __CUB_ALIGN_BYTES(sycl::ulong2, 8)
+#else
+    __CUB_ALIGN_BYTES(sycl::long2, 16)
+    __CUB_ALIGN_BYTES(sycl::ulong2, 16)
+#endif
+```
+修改为
+```
+__CUB_ALIGN_BYTES(sycl::long2, 8)
+__CUB_ALIGN_BYTES(sycl::ulong2, 8)
+```
