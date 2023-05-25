@@ -19,3 +19,15 @@ endif()
 ### ONEAPI
 ### 1.
 oneapi/CMakeLists.txt 中set(CMAKE_CXX_FLAGS_RELEASE "-O3 /EHa /QxCORE-AVX2 /fp:fast") 修改为set(CMAKE_CXX_FLAGS_RELEASE "-O3 /EHa /QxCORE-AVX2")
+### 2.
+oneapi/common/CMakeLists.txt
+```
+IF(WIN32)
+set_target_properties(${LIB_NAME} PROPERTIES VS_PLATFORM_TOOLSET ${INTEL_DPCPP_COMPILER} )
+target_link_libraries("${LIB_NAME}" pcl_common pcl_oneapi_containers)
+endif()
+```
+修改为
+IF(WIN32)
+target_link_libraries("${LIB_NAME}" pcl_common pcl_oneapi_containers)
+endif()
