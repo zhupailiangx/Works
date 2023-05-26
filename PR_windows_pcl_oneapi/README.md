@@ -110,10 +110,37 @@ PCL_ADD_TEST(oneapi_voxel_grid test_oneapi_voxel_grid
             FILES test_oneapi_voxel_grid.cpp
             LINK_WITH pcl_gtest pcl_oneapi_filters pcl_oneapi_containers pcl_filters pcl_io
             ARGUMENTS "${PCL-ONEAPI-TEST_SOURCE_DIR}/table_scene_lms400.pcd" )
-            ```
+```
+修改成
 ```
 PCL_ADD_TEST(oneapi_voxel_grid test_oneapi_voxel_grid
             FILES test_oneapi_voxel_grid.cpp
             LINK_WITH pcl_gtest pcl_oneapi_filters pcl_oneapi_containers pcl_filters pcl_io
             )
-      ```
+ ```
+```
+PCL_ADD_TEST(oneapi_statistical_outlier_removal test_oneapi_statistical_outlier_removal
+            FILES test_oneapi_statistical_outlier_removal.cpp
+            LINK_WITH pcl_gtest pcl_oneapi_filters pcl_oneapi_containers pcl_filters pcl_kdtree pcl_search pcl_io
+            ARGUMENTS "${PCL-ONEAPI-TEST_SOURCE_DIR}/cloud.pcd" )
+```
+修改成
+```
+PCL_ADD_TEST(oneapi_statistical_outlier_removal test_oneapi_statistical_outlier_removal
+            FILES test_oneapi_statistical_outlier_removal.cpp
+            LINK_WITH pcl_gtest pcl_oneapi_filters pcl_oneapi_containers pcl_filters pcl_kdtree pcl_search pcl_io
+            )
+```
+
+删除
+```
+if(WIN32)
+set_target_properties(  test_oneapi_passthrough 
+                        test_oneapi_passthrough_perf
+                        test_oneapi_statistical_outlier_removal
+                        test_oneapi_statistical_outlier_removal_perf
+                        test_oneapi_voxel_grid
+                        test_oneapi_voxel_grid_perf
+                        PROPERTIES VS_DEBUGGER_ENVIRONMENT  "SYCL_DEVICE_FILTER=ext_oneapi_level_zero:gpu
+PATH=%PATH%;${SYCL_PATH};${PCL_ONEAPI_ROOT}/bin;${FLANN_ROOT}/bin;${PCL_BIN};${VTK_ROOT}/bin;${OPENNI2_BIN};${Qhull_ROOT}/bin")
+```
