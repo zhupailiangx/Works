@@ -80,7 +80,7 @@ set_target_properties(${_exename} PROPERTIES VS_PLATFORM_TOOLSET "Intel(R) oneAP
 endif()
 ```
 ### 3.
-test\features\CMakeLists.txt
+test\oneapi\features\CMakeLists.txt
 删除
 ```
 if(WIN32)
@@ -88,3 +88,32 @@ set_target_properties(test_oneAPI_features_normals_function PROPERTIES VS_DEBUGG
 PATH=%PATH%;${SYCL_PATH};${PCL_ONEAPI_ROOT}/bin;${FLANN_ROOT}/bin;${PCL_BIN};${VTK_ROOT}/bin;${OPENNI2_BIN};${Qhull_ROOT}/bin")
 endif()
 ```
+
+### 4.
+test/oneapi/filters/CMakeLists.txt
+```
+PCL_ADD_TEST(oneapi_passthrough test_oneapi_passthrough
+             FILES test_oneapi_passthrough.cpp
+             LINK_WITH pcl_gtest pcl_oneapi_filters pcl_oneapi_containers pcl_filters pcl_io
+             ARGUMENTS "${PCL-ONEAPI-TEST_SOURCE_DIR}/using_kinfu_large_scale_output.pcd")
+```
+修改成
+```
+PCL_ADD_TEST(oneapi_passthrough test_oneapi_passthrough
+             FILES test_oneapi_passthrough.cpp
+             LINK_WITH pcl_gtest pcl_oneapi_filters pcl_oneapi_containers pcl_filters pcl_io)
+```
+
+
+```
+PCL_ADD_TEST(oneapi_voxel_grid test_oneapi_voxel_grid
+            FILES test_oneapi_voxel_grid.cpp
+            LINK_WITH pcl_gtest pcl_oneapi_filters pcl_oneapi_containers pcl_filters pcl_io
+            ARGUMENTS "${PCL-ONEAPI-TEST_SOURCE_DIR}/table_scene_lms400.pcd" )
+            ```
+```
+PCL_ADD_TEST(oneapi_voxel_grid test_oneapi_voxel_grid
+            FILES test_oneapi_voxel_grid.cpp
+            LINK_WITH pcl_gtest pcl_oneapi_filters pcl_oneapi_containers pcl_filters pcl_io
+            )
+      ```
