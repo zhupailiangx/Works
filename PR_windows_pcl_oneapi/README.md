@@ -143,4 +143,79 @@ set_target_properties(  test_oneapi_passthrough
                         test_oneapi_voxel_grid_perf
                         PROPERTIES VS_DEBUGGER_ENVIRONMENT  "SYCL_DEVICE_FILTER=ext_oneapi_level_zero:gpu
 PATH=%PATH%;${SYCL_PATH};${PCL_ONEAPI_ROOT}/bin;${FLANN_ROOT}/bin;${PCL_BIN};${VTK_ROOT}/bin;${OPENNI2_BIN};${Qhull_ROOT}/bin")
+set_target_properties( test_oneapi_voxel_grid_perf PROPERTIES VS_DEBUGGER_COMMAND_ARGUMENTS "${PCL-ONEAPI-TEST_SOURCE_DIR}/table_scene_lms400.pcd" )
+set_target_properties( test_oneapi_statistical_outlier_removal_perf PROPERTIES VS_DEBUGGER_COMMAND_ARGUMENTS "${PCL-ONEAPI-TEST_SOURCE_DIR}/cloud.pcd" )
+set_target_properties( test_oneapi_passthrough_perf PROPERTIES VS_DEBUGGER_COMMAND_ARGUMENTS "${PCL-ONEAPI-TEST_SOURCE_DIR}/using_kinfu_large_scale_output.pcd" )
+
+endif()
 ```
+
+### 5.
+test/oneapi/filters_omp/CMakeLists.txt
+删除
+```
+if(WIN32)
+set_target_properties(test_filters_omp PROPERTIES VS_PLATFORM_TOOLSET ${INTEL_CPP_COMPILER})
+set_target_properties(test_filters_omp PROPERTIES VS_DEBUGGER_ENVIRONMENT  "PATH=%PATH%;${SYCL_PATH};${PCL_ONEAPI_ROOT}/bin;${FLANN_ROOT}/bin;${PCL_BIN};${VTK_ROOT}/bin;${OPENNI2_BIN}")
+endif()
+```
+
+### 6.
+test/oneapi/kdtree/CMakeLists.txt
+删除
+```
+if(WIN32)
+set_target_properties(  test_oneapi_kdtree 
+                        test_oneapi_kdtree_perf
+                        PROPERTIES VS_DEBUGGER_ENVIRONMENT  "SYCL_DEVICE_FILTER=ext_oneapi_level_zero:gpu
+PATH=%PATH%;${SYCL_PATH};${PCL_ONEAPI_ROOT}/bin;${FLANN_ROOT}/bin;${PCL_BIN};${VTK_ROOT}/bin;${OPENNI2_BIN};${Qhull_ROOT}/bin")
+
+
+set_target_properties(  test_oneapi_kdtree_perf 
+                        PROPERTIES VS_DEBUGGER_COMMAND_ARGUMENTS "${PCL-ONEAPI-TEST_SOURCE_DIR}/test_P.pcd ${PCL-ONEAPI-TEST_SOURCE_DIR}/test_Q.pcd" )
+
+
+endif()
+
+```
+
+### 7.
+test/oneapi/octree/CMakeLists.txt
+```
+PCL_ADD_TEST(oneAPI_octree_approx_nearest_function test_oneAPI_approx_nearest_function 
+                    FILES test_oneapi_approx_nearest_function.cpp 
+                    LINK_WITH pcl_gtest pcl_common pcl_octree pcl_oneapi_octree pcl_io
+                    ARGUMENTS "${PCL-ONEAPI-TEST_SOURCE_DIR}/test_P.pcd ${PCL-ONEAPI-TEST_SOURCE_DIR}/test_Q.pcd")
+  
+```
+
+```
+PCL_ADD_TEST(oneAPI_octree_approx_nearest_function test_oneAPI_approx_nearest_function 
+                    FILES test_oneapi_approx_nearest_function.cpp 
+                    LINK_WITH pcl_gtest pcl_common pcl_octree pcl_oneapi_octree pcl_io
+                    )
+```
+
+删除
+```
+if(WIN32)
+set_target_properties(  test_oneAPI_approx_nearest_function
+                        test_oneAPI_approx_nearest_performance
+                        test_oneAPI_knn_search_function
+                        test_oneAPI_knn_search_performance
+                        test_oneAPI_radius_search_function
+                        test_oneAPI_radius_search_performance
+                        PROPERTIES VS_DEBUGGER_ENVIRONMENT  "SYCL_DEVICE_FILTER=ext_oneapi_level_zero:gpu
+PATH=%PATH%;${SYCL_PATH};${PCL_ONEAPI_ROOT}/bin;${FLANN_ROOT}/bin;${PCL_BIN};${VTK_ROOT}/bin;${OPENNI2_BIN};${Qhull_ROOT}/bin;${YAML_CPP_BIN}")
+
+set_target_properties(  test_oneAPI_approx_nearest_performance 
+                        test_oneAPI_knn_search_performance
+                        PROPERTIES VS_DEBUGGER_COMMAND_ARGUMENTS "${PCL-ONEAPI-TEST_SOURCE_DIR}/test_P.pcd ${PCL-ONEAPI-TEST_SOURCE_DIR}/test_Q.pcd" )
+
+endif()
+```
+
+### 8.
+test/oneapi/registration/CMakeLists.txt
+删除
+string(APPEND CMAKE_CXX_FLAGS " -msse4.1")
