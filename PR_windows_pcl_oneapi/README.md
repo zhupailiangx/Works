@@ -48,22 +48,7 @@ if(WIN32)
 set_target_properties(${LIB_NAME} PROPERTIES VS_PLATFORM_TOOLSET ${INTEL_DPCPP_COMPILER} )
 endif()
 ```
-### 5.
-oneapi/utils/include/pcl/oneapi/utils/device/sort/util_type.hpp
-```
-#ifdef _WIN32
-    __CUB_ALIGN_BYTES(sycl::long2, 8)
-    __CUB_ALIGN_BYTES(sycl::ulong2, 8)
-#else
-    __CUB_ALIGN_BYTES(sycl::long2, 16)
-    __CUB_ALIGN_BYTES(sycl::ulong2, 16)
-#endif
-```
-修改为
-```
-__CUB_ALIGN_BYTES(sycl::long2, 8)
-__CUB_ALIGN_BYTES(sycl::ulong2, 8)//需要实验和16的结果对比
-```
+
 
 ## Test oneapi
 ### 1. 
