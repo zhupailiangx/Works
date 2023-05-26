@@ -79,3 +79,10 @@ if(WIN32)
 set_target_properties(${_exename} PROPERTIES VS_PLATFORM_TOOLSET "Intel(R) oneAPI DPC++ Compiler 2023" )
 endif()
 ```
+### 3.
+test\features\CMakeLists.txt
+删除
+#if(WIN32)
+#set_target_properties(test_oneAPI_features_normals_function PROPERTIES VS_DEBUGGER_ENVIRONMENT  "SYCL_DEVICE_FILTER=ext_oneapi_level_zero:gpu
+#PATH=%PATH%;${SYCL_PATH};${PCL_ONEAPI_ROOT}/bin;${FLANN_ROOT}/bin;${PCL_BIN};${VTK_ROOT}/bin;${OPENNI2_BIN};${Qhull_ROOT}/bin")
+#endif()
