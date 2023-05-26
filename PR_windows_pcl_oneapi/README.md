@@ -56,12 +56,13 @@ CMakeLists.txt
  set(CMAKE_CXX_FLAGS_RELEASE "-O3 /EHa /QxCORE-AVX2 /fp:fast") 修改为
  set(CMAKE_CXX_FLAGS_RELEASE "-O3 /EHa /QxCORE-AVX2")
  
- ### 2.
+ ### 2. (还原修改)
  test\oneapi\cmake\pcl_targets.cmake, line 399.
 添加
 ```
 if(WIN32)
-set_target_properties(${_exename} PROPERTIES VS_PLATFORM_TOOLSET "Intel(R) oneAPI DPC++ Compiler 2023" )
+//set_target_properties(${_exename} PROPERTIES VS_PLATFORM_TOOLSET "Intel(R) oneAPI DPC++ Compiler 2023" )
+set_target_properties(${_exename} PROPERTIES VS_PLATFORM_TOOLSET ${INTEL_DPCPP_COMPILER} )
 endif()
 ```
 ### 3.
