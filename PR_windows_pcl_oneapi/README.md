@@ -1396,7 +1396,7 @@ sudo make install
   <td height=20 class=xl90 style='height:15.0pt;border-top:none'>oneAPI_filters_perf.PassThrough</td>
   <td class=xl85 style='border-top:none;border-left:none'>Failed(core
   dumped)<span style='mso-spacerun:yes'> </span></td>
-  <td class=xl85 style='border-top:none;border-left:none'>OK</td>
+  <td class=xl85 style='border-top:none;border-left:none'>Failed</td>
   <td class=xl85 style='border-top:none;border-left:none'>Failed(0.72&lt;2)</td>
   <td class=xl85 style='border-top:none;border-left:none'>Failed(0.72&lt;2)</td>
  </tr>
