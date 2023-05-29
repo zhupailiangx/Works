@@ -208,7 +208,7 @@ string(APPEND CMAKE_CXX_FLAGS " -msse4.1")
 
 
 
-## 结果
+## Per和Function测试结果
 <table border=0 cellpadding=0 cellspacing=0 width=1292 style='border-collapse:
  collapse;table-layout:fixed;width:969pt'>
  <col width=302 style='mso-width-source:userset;mso-width-alt:11044;width:227pt'>
