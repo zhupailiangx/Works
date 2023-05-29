@@ -696,7 +696,7 @@ string(APPEND CMAKE_CXX_FLAGS " -msse4.1")
   <td height=20 class=xl79 style='height:15.0pt;border-top:none'>oneAPI_filters_perf.PassThrough</td>
   <td class=xl73 style='border-top:none;border-left:none'>Failed(core
   dumped)<span style='mso-spacerun:yes'> </span></td>
-  <td class=xl73 style='border-top:none;border-left:none'>OK</td>
+  <td class=xl73 style='border-top:none;border-left:none'>Failed</td>
  </tr>
  <tr height=20 style='height:15.0pt'>
   <td height=20 class=xl79 style='height:15.0pt;border-top:none'>PCL.Oneap_filters.Statistical_Outlier_Removeal_performance</td>
