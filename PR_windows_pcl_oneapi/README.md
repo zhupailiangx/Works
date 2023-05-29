@@ -738,3 +738,38 @@ string(APPEND CMAKE_CXX_FLAGS " -msse4.1")
 </table>
 
 </body>
+
+
+
+## Linux问题发现及修改
+修改之后的PCL-ONEAPI 在Linux系统上测试案例有很多的失败（可以在上面表格中发现），经过实验发现C++14 和C++ 17两个版本对Native PCL的编译方式不同。
+给定的build_pcl_native.sh脚本中
+```
+#!/bin/bash
+if [ ! -d ../build ]; then
+   mkdir ../build
+fi
+cd ../build
+#Need to specify the CMAKE_CXX_FLAGS. Otherwise, -march=native will be used and 
+#that could cause segmentation fault if PCL ondAPI is built with that flag.
+#Since we want the pre-built library to be compatible to most HW, it makse sense
+#to build without -march=native. PCL library downloaded from Ubuntu APT repo 
+#is not built with -march=native either.
+cmake -DCMAKE_CXX_FLAGS="-Wabi=11 -Wall -Wextra -Wno-unknown-pragmas -fno-strict-aliasing -Wno-format-extra-args -Wno-sign-compare -Wno-invalid-offsetof -Wno-conversion" ../
+make -j$(nproc)
+sudo make install
+```
+修改成17之后的编译方式应该修改为
+```
+#!/bin/bash
+if [ ! -d ../build ]; then
+   mkdir ../build
+fi
+cd ../build
+
+cmake ..
+make -j$(nproc)
+sudo make install
+```
+
+
