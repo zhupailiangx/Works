@@ -1,4 +1,5 @@
 # PR_dev_windows c++14 和c++17 func和perf测试结果
+
 <body link="#0563C1" vlink="#954F72">
 
 <table border=0 cellpadding=0 cellspacing=0 width=1710 style='border-collapse:
@@ -12,7 +13,7 @@
  <col width=142 style='mso-width-source:userset;mso-width-alt:5193;width:107pt'>
  <col width=56 style='mso-width-source:userset;mso-width-alt:2048;width:42pt'>
  <tr height=20 style='height:15.0pt'>
-  <td colspan=8 height=20 class=xl84 width=1710 style='border-right:.5pt solid black;
+  <td colspan=8 height=20 class=xl84 width=1710 align='center' style='border-right:.5pt solid black;
   height:15.0pt;width:1284pt'>Functions Test</td>
  </tr>
  <tr height=20 style='height:15.0pt'>
@@ -522,6 +523,7 @@
 </body>
 
 
+
 <table border=0 cellpadding=0 cellspacing=0 width=1198 style='border-collapse:
  collapse;table-layout:fixed;width:901pt'>
  <col width=461 style='mso-width-source:userset;mso-width-alt:16859;width:346pt'>
@@ -532,7 +534,7 @@
  <col width=102 style='mso-width-source:userset;mso-width-alt:3730;width:77pt'>
  <col width=118 style='mso-width-source:userset;mso-width-alt:4315;width:89pt'>
  <tr height=20 style='height:15.0pt'>
-  <td colspan=7 height=20 class=xl88 width=1198 style='height:15.0pt;
+  <td colspan=7 height=20 class=xl88 width=1198 align='center' style='height:15.0pt;
   width:901pt'>Perf Test</td>
  </tr>
  <tr height=20 style='height:15.0pt'>
