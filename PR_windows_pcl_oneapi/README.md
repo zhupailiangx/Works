@@ -6,7 +6,7 @@ common/include/pcl/for_each_type.h,common/include/pcl/impl/instantiate.hpp,commo
 ### 2.
 common/include/pcl/impl/instantiate.hpp 98行#ifdef _MSC_VER 改为 #if (defined _WIN32 && defined _MSC_VER && !defined(__clang__))
 ### 3.
-#if (defined _WIN32 && defined _MSC_VER) 修改为 #if (defined _WIN32 && defined _MSC_VER && !defined(__clang__))
+common/include/pcl/for_each_type.h 77行#if (defined _WIN32 && defined _MSC_VER) 修改为 #if (defined _WIN32 && defined _MSC_VER && !defined(__clang__))
 ### 4.
 Native pcl CMakeLists.txt 用master 替换，306行添加
 ```
