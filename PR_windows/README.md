@@ -7,3 +7,6 @@
 **编译PCL-ONEAPI失败**
 ![image](https://github.com/zhupailiangx/Works/assets/120553507/cb5e9106-a777-4d21-8b8a-4cf798ec6d4f)
 
+## 3.还原
+![image](https://github.com/zhupailiangx/Works/assets/120553507/c75cc5d5-3dce-4160-a738-5862ba77ac76)
+**通过**
