@@ -1,2 +1,2 @@
-# OpenCV VS IPP
+# OpenCV VS IPP Histogram
 
