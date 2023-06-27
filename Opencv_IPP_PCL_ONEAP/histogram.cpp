@@ -16,7 +16,7 @@ using namespace std::chrono;
 #define MAX_NUM_THREADS 32
 
 cv::Mat ReadImage() {
-	string file = "../data/color_4288.jpg";
+	string file = "../color_4288.jpg";
 	cv::Mat image = cv::imread(file,1);
 	cout << image.size() << endl;
 
