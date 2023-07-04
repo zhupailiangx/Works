@@ -1,0 +1,199 @@
+==================== Start testing ====================
+
+
+
+==================== run CPU Implementation Dilate ====================
+
+
+This program run dilation on picture ../data/color_4288.jpg for 100 times.
+Average running time as followed: 
+
+
+
+opencv     took average 2.833 milliseconds 
+ipp        took average 2.398 milliseconds 
+ipp multi  took average 1.569 milliseconds 
+correctness is 100.000 %
+
+
+==================== run CPU Implementation GaussianBlur ====================
+image file is data/color_4288.jpg
+
+opencv multiple thread kernelSize 21 sigma 4.3 average time 13.77 ms 
+
+
+================================================================================
+
+opencv single thread kernelSize 21 sigma 4.3 average time 43.38 ms 
+
+
+================================================================================
+
+ipp single thread kernelSize 21 sigma 4.3 average time 50.98 ms 
+
+
+================================================================================
+
+ipp multiple thread kernelSize 21 sigma 4.3 average time 23.65 ms 
+
+
+================================================================================
+
+
+==================== run CPU Implementation Histogram ====================
+
+Intel(R) IPP:
+  ippCore 2021.7 (r0xa954907f) Nov  4 2022 
+  ippSP AVX2 (l9) 2021.7 (r0xa954907f) Nov  4 2022 
+  ippIP AVX2 (l9) 2021.7 (r0xa954907f) Nov  4 2022 
+generated image of res 4000 * 4000
+
+histogram_ipp, 4 levels,
+0.00	64.00	128.00	192.00	256.00	
+histogramtile ipp takes 4100 us ======
+hist ipp result:
+398432300	401839300	401316700	398411700	
+
+histogram openCV takes 7457 us ======
+histogram_openCV: 4 levels,
+[3984323;
+ 4018393;
+ 4013167;
+ 3984117]
+
+
+==================== run CPU Implementation ImageDiff ====================
+Frame size: 2160 * 3840
+=================OpenCV absdiff===================
+opencv_absdiff costs 4414 us
+=================IPP absdiff======================
+ipp_absdiff costs 4340 us
+pixels same is 24883200, diff is 0, correctness is 100.00 %
+=================IPP tile absdiff=================
+OMP max thread 4
+OMP 4 threads Test: ipp_tile_absdiff costs 4337 us
+OMP 2 threads Test: ipp_tile_absdiff costs 4002 us
+pixels same is 24883200, diff is 0, correctness is 100.00 %
+
+Frame size: 4320 * 7680
+=================OpenCV absdiff===================
+opencv_absdiff costs 17609 us
+=================IPP absdiff======================
+ipp_absdiff costs 17405 us
+pixels same is 99532800, diff is 0, correctness is 100.00 %
+=================IPP tile absdiff=================
+OMP max thread 4
+OMP 4 threads Test: ipp_tile_absdiff costs 17371 us
+OMP 2 threads Test: ipp_tile_absdiff costs 16049 us
+pixels same is 99532800, diff is 0, correctness is 100.00 %
+
+
+==================== run CPU Implementation MatchTemplate ====================
+Hello World! 
+/home/intel/Downloads/CVOI/applications.industrial.machine-vision.computer-vision-optimization-toolkit-dev_2023/Reference-Optimized-Implementation/Optimized-OpenCV-Operators/CPU Implementation/MatchTemplate
+number bigger than threshold is 1631 
+
+opencv     took average 46.231 milliseconds 
+ipp single took average 20.180 milliseconds 
+ipp multi  took average 6.777 milliseconds 
+correctness is 99.982 %
+
+
+==================== run CPU Implementation MeanBlur ====================
+Size 4288 2654
+
+CV Time consuming(kernel size 11): 10.678681
+
+IPP Time consuming(kernel size 11): 12.414578
+
+Own IPP Time consuming(kernel size 11): 7.017260
+pixels correctness is 100.00 % 
+
+ TBB & own IPP Time consuming(kernel size 11): 2.743250
+pixels correctness is 100.00 % 
+
+
+==================== run CPU Implementation MorphOpen ====================
+/************************Performance evaluation starts************************/
+CV Time consuming:4.57866
+IPP Time consuming:3.58787
+pixels correctness is 100.00 % 
+tbb ipp time consuming:2.94453
+pixels correctness is 99.86 % 
+/************************Performance evaluation ends************************/
+/************************Performance evaluation starts************************/
+CV Time consuming:5.34049
+IPP Time consuming:4.54462
+pixels correctness is 100.00 % 
+tbb ipp time consuming:2.9128
+pixels correctness is 99.79 % 
+/************************Performance evaluation ends************************/
+
+
+==================== run CPU Implementation Resize ====================
+The openCV resize time is: 35.2102ms
+The Average resize time: 0.352102ms
+
+The IPP resize time is: 47.5167ms
+The Average resize time: 0.475167ms
+
+The TL resize time: 46.4553ms
+The Average resize time: 0.464553ms
+
+
+
+==================== run CPU Implementation SobelGradient ====================
+read file data/color_4288.jpg 
+
+
+=============  OPENCV sobel hypot =====================
+opencv Sobel x took 51 milliseconds
+
+
+=============  SINGLE thread sobel hypot ==================
+ipp Sobel single thread x took 44 milliseconds
+
+
+=============  MULTI thread sobel hypot ==================
+ipp Sobel multi thread x took 23 milliseconds
+
+
+================  compare fail  ======================
+  Single Sobel fail compared to opencv result
+compare took 0 milliseconds
+
+
+read file data/color_4288.jpg 
+
+
+=============  OPENCV sobel abs sum =====================
+opencv Sobel x took 42 milliseconds
+
+
+=============  SINGLE thread sobel abs sum ==================
+ipp Sobel single thread x took 16 milliseconds
+
+
+=============  MULTI thread sobel abs sum ==================
+ipp Sobel multi thread x took 15 milliseconds
+
+
+================  compare fail  ======================
+  Multi Sobel fail compared to opencv result
+compare took 0 milliseconds
+
+
+
+
+==================== run CPU Implementation WarpAffine ipp_affine ====================
+
+Intel(R) IPP:
+  ippCore 2021.7 (r0xa954907f) Nov  4 2022 
+  ippSP AVX2 (l9) 2021.7 (r0xa954907f) Nov  4 2022 
+  ippIP AVX2 (l9) 2021.7 (r0xa954907f) Nov  4 2022 
+resolution: 4000 * 4000, openCV fake image
+warpAffine openCV takes 23275 us
+
+resolution: 4000 * 4000, channels: 1, IPP fake image
+warpAffinetile ipp takes 9508 us
+
