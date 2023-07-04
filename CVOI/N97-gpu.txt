@@ -1,0 +1,72 @@
+==================== Start testing ====================
+
+
+
+
+==================== run GPU Implementation DirectProgramming ESIMD ====================
+Usage: Histogram.exe input_file
+No input file specificed. Use default random value ....
+Running on Intel(R) UHD Graphics
+Processing inputs
+Number of iterations: 100
+[KernelTime]:38.5864
+[OverallTime][Primary]:56.9847
+
+Total = 4194304 
+
+Total = 4194304 
+PASSED
+
+
+==================== run GPU Implementation Canny ====================
+the time of opencv canny is :79.6329 ms
+The elapsed time of dpcpp-canny in gpu steps was :16.0988 ms
+The elapsed time of dpcpp-canny in cpu steps was :5.68531 ms
+Expected: 255, actual: 0, on: 0, 0
+
+
+==================== run GPU Implementation Dilation ====================
+Dilation CPU: 2.46176ms
+GPU kernel Dilation time=1.17843ms
+Great!!
+
+
+==================== run GPU Implementation Erosion ====================
+Erosion CPU: 2.79197ms
+GPU kernel erosion time=1.13929ms
+Great!!
+
+
+==================== run GPU Implementation GaussianBlur ====================
+gaussian of (3*3):
+CPU OpenCV time = 2.544088 ms
+GPU kernel time=1.14871 ms
+
+gaussian of (5*5):
+CPU OpenCV time = 3.384799 ms
+GPU kernel time=1.23639 ms
+
+
+
+==================== run GPU Implementation MeanBlur ====================
+meanBlur CPU: 10.7019ms
+GPU kernel meanBlur time=2.92557ms
+Great!!
+
+
+==================== run GPU Implementation MorphOpen ====================
+MorphOpen time consumption on CPU:4.67855 ms
+GPU kernel MorphOpen time=2.28188 ms
+
+
+==================== run GPU Implementation SobelGradient ====================
+The sobel sum elapsed time in opencv was 42.9837 ms
+The sobel sum elapsed time in gpu was 6.65116 ms
+Great!!
+The sobel hypot elapsed time in opencv was 51.4156 ms
+The sobel hypot elapsed time in gpu was 6.72902 ms
+Great!!
+
+
+==================== End testing ====================
+
