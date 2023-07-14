@@ -26,7 +26,7 @@ cmake -D WITH_IPP=NO/OFF ..
 make -j8
 sudo make install
 ```
-![Screenshot from 2023-07-13 08-16-21](https://github.com/zhupailiangx/Works/assets/120553507/35179a4b-602b-4f0a-891a-c9953257d663)
+
 
 
 ## windows exe 
@@ -75,4 +75,6 @@ opencv     took average 11.754 milliseconds
 
 ## 其他
 ![image](https://github.com/zhupailiangx/Works/assets/120553507/827c75c1-c88f-4949-9dc5-e9971e9c7bbe)
+
+![Screenshot from 2023-07-13 08-16-21](https://github.com/zhupailiangx/Works/assets/120553507/35179a4b-602b-4f0a-891a-c9953257d663)
 
