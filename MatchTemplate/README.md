@@ -12,7 +12,7 @@ cd <opencv code dir>
 mkdir build
 cd build
 cmake -D WITH_IPP=ON/OFF ..
-open Visual Studio
+open OpenCV.sln with Visual Studio 
 Select install and build
 ```
 ## Linux 安装
