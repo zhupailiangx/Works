@@ -32,3 +32,18 @@ opencv match template took 32.896 milliseconds
 opencv match template took 32.580 milliseconds
 opencv     took average 32.116 milliseconds
 ![image](https://github.com/zhupailiangx/Works/assets/120553507/d94cfefe-7c90-4b49-b738-034cab94b260)
+
+## windows souce code WITH_IPP=ON
+opencv match template took 12.727 milliseconds
+opencv match template took 11.319 milliseconds
+opencv match template took 11.297 milliseconds
+opencv match template took 11.595 milliseconds
+opencv match template took 11.239 milliseconds
+opencv match template took 12.118 milliseconds
+opencv match template took 11.787 milliseconds
+opencv match template took 11.843 milliseconds
+opencv match template took 11.408 milliseconds
+opencv match template took 12.206 milliseconds
+opencv     took average 11.754 milliseconds
+
+![image](https://github.com/zhupailiangx/Works/assets/120553507/559be1b3-65bc-425a-9f0c-cb03aa8bb995)
