@@ -11,8 +11,9 @@ open cmd
 cd <opencv code dir>
 mkdir build
 cd build
-cmake -D WITH_IPP=ON/OFF
-cmake --build . --target INSTALL
+cmake -D WITH_IPP=ON/OFF ..
+open Visual Studio
+Select install and build
 ```
 ## Linux 安装
 (1) sudo apt install libopencv-dev
