@@ -14,7 +14,18 @@ cd build
 cmake -D WITH_IPP=ON/OFF
 cmake --build . --target INSTALL
 ```
+## Linux 安装
+(1) sudo apt install libopencv-dev
 
+(2)
+```
+cd <opencv souce code dir>
+mkdir build
+cd build
+cmake -D WITH_IPP=NO/OFF ..
+make -j8
+sudo make install
+```
 ![Screenshot from 2023-07-13 08-16-21](https://github.com/zhupailiangx/Works/assets/120553507/35179a4b-602b-4f0a-891a-c9953257d663)
 
 
