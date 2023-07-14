@@ -339,7 +339,18 @@ opencv     took average 11.754 milliseconds
 
 ![image](https://github.com/zhupailiangx/Works/assets/120553507/559be1b3-65bc-425a-9f0c-cb03aa8bb995)
 
-
+## Linux WITH_IPP=OFF
+opencv match template took 33.821 milliseconds 
+opencv match template took 32.687 milliseconds 
+opencv match template took 32.656 milliseconds 
+opencv match template took 32.632 milliseconds 
+opencv match template took 32.690 milliseconds 
+opencv match template took 32.626 milliseconds 
+opencv match template took 32.507 milliseconds 
+opencv match template took 32.732 milliseconds 
+opencv match template took 32.554 milliseconds 
+opencv match template took 32.514 milliseconds 
+opencv     took average 32.742 milliseconds 
 ## 其他
 ![image](https://github.com/zhupailiangx/Works/assets/120553507/827c75c1-c88f-4949-9dc5-e9971e9c7bbe)
 
