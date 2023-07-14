@@ -1,6 +1,18 @@
 # OpenCV MatchTemplate 算子Linux和Windows性能差异分析
 分析方式:安装方式和Vtune
 
+## Windows 安装
+(1) https://github.com/opencv/opencv/releases/tag/4.5.5 中下载exe文件安装
+(2)
+```
+download source code
+open cmd
+cd <opencv code dir>
+mkdir build
+cd build
+cmake -D WITH_IPP=ON/OFF
+cmake --build . --target INSTALL
+```
 
 ![Screenshot from 2023-07-13 08-16-21](https://github.com/zhupailiangx/Works/assets/120553507/35179a4b-602b-4f0a-891a-c9953257d663)
 
