@@ -5,7 +5,7 @@
 ![Screenshot from 2023-07-13 08-16-21](https://github.com/zhupailiangx/Works/assets/120553507/35179a4b-602b-4f0a-891a-c9953257d663)
 
 
-## exe 
+## windows exe 
 opencv match template took 13.025 milliseconds
 opencv match template took 11.083 milliseconds
 opencv match template took 11.847 milliseconds
@@ -18,3 +18,16 @@ opencv match template took 11.097 milliseconds
 opencv match template took 11.662 milliseconds
 opencv     took average 11.857 milliseconds
 ![image](https://github.com/zhupailiangx/Works/assets/120553507/f8e7857d-4658-473b-984b-9bfc5caf9edd)
+
+## windows souece code WITH_IPP=OFF
+opencv match template took 32.068 milliseconds
+opencv match template took 31.659 milliseconds
+opencv match template took 31.753 milliseconds
+opencv match template took 31.333 milliseconds
+opencv match template took 32.464 milliseconds
+opencv match template took 31.516 milliseconds
+opencv match template took 33.159 milliseconds
+opencv match template took 31.737 milliseconds
+opencv match template took 32.896 milliseconds
+opencv match template took 32.580 milliseconds
+opencv     took average 32.116 milliseconds
