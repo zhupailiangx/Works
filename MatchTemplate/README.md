@@ -44,7 +44,7 @@ sudo make install
  </tr>
  <tr height=20 style='height:15.0pt'>
   <td height=20 class=xl68 style='height:15.0pt;border-top:none'>&nbsp;</td>
-  <td colspan=3 class=xl76 style='border-left:none'>Linux</td>
+  <td colspan=3 class=xl76 text-align= 'center' style='border-left:none'>Linux</td>
   <td colspan=3 class=xl76 style='border-left:none'>Windows</td>
  </tr>
  <tr height=20 style='height:15.0pt'>
