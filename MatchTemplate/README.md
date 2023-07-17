@@ -223,8 +223,10 @@ sudo make install
 ### Linux WITH_IPP=OFF/ON
 ![Screenshot from 2023-07-13 08-16-21](https:/![Screenshot from 2023-07-14 05-00-43](https://github.com/zhupailiangx/Works/assets/120553507/063a9f7f-2aa7-4b1a-9243-38a7f4e4d3b4)
 ## 其他
-![image](https://github.com/zhupailiangx/Works/assets/120553507/827c75c1-c88f-4949-9dc5-e9971e9c7bbe)
+https://www.cnblogs.com/tt2015-sz/p/4654470.html#:~:text=%E6%B3%A8%E6%84%8F%EF%BC%9A%E8%BF%99%E9%87%8Cipp,%E5%90%8E%E9%9D%A2%E4%B8%8D%E5%B8%A6d%E5%93%A6~~
 
 
-/github.com/zhupailiangx/Works/assets/120553507/35179a4b-602b-4f0a-891a-c9953257d663)
 ![image](https://github.com/zhupailiangx/Works/assets/120553507/1529d029-4a8f-4c05-9c49-da1054a4efeb)
+
+### windwos 源码安装报错
+![image](https://github.com/zhupailiangx/Works/assets/120553507/827c75c1-c88f-4949-9dc5-e9971e9c7bbe)
