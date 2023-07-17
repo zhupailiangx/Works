@@ -28,7 +28,7 @@ make -j8
 sudo make install
 ```
 ### MatchTemplate测试结果
-Device:1185GRE
+**Device:1185GRE**
 <body link="#0563C1" vlink="#954F72">
 
 <table border=0 cellpadding=0 cellspacing=0 width=966 style='border-collapse:
