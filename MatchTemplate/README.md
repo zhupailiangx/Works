@@ -1,5 +1,5 @@
 # <center> OpenCV MatchTemplate 算子Linux和Windows性能差异分析
-分析方式:安装方式和Vtune
+分析方式:OpenCV安装方式和Vtune
 
 ## Windows 安装
 (1) https://github.com/opencv/opencv/releases/tag/4.5.5 中下载exe文件安装
