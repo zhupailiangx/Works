@@ -209,15 +209,15 @@ sudo make install
 </body>
 
 ## Vtune 分析
-### windows exe 
+### Windows opencv exe 安装 
 
 ![image](https://github.com/zhupailiangx/Works/assets/120553507/f8e7857d-4658-473b-984b-9bfc5caf9edd)
 
-### windows souece code WITH_IPP=OFF
+### Windows souece code WITH_IPP=OFF
 
 ![image](https://github.com/zhupailiangx/Works/assets/120553507/d94cfefe-7c90-4b49-b738-034cab94b260)
 
-### windows souce code WITH_IPP=ON
+### Windows souce code WITH_IPP=ON
 
 
 ![image](https://github.com/zhupailiangx/Works/assets/120553507/559be1b3-65bc-425a-9f0c-cb03aa8bb995)
