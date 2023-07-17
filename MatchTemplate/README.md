@@ -28,6 +28,7 @@ make -j8
 sudo make install
 ```
 ### MatchTemplate测试结果
+Device:1185GRE
 <body link="#0563C1" vlink="#954F72">
 
 <table border=0 cellpadding=0 cellspacing=0 width=966 style='border-collapse:
@@ -40,7 +41,7 @@ sudo make install
  <col width=180 span=2 style='mso-width-source:userset;mso-width-alt:6582;
  width:135pt'>
  <tr height=20 style='height:15.0pt'>
-  <td colspan=7 height=20 class=xl76 width=966 style='height:15.0pt;width:725pt'>MatchTemplate</td>
+  <td colspan=7 height=20 class=xl76 width=966  align= 'center' style='height:15.0pt;width:725pt'>MatchTemplate</td>
  </tr>
  <tr height=20 style='height:15.0pt'>
   <td height=20 class=xl68 style='height:15.0pt;border-top:none'>&nbsp;</td>
