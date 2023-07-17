@@ -234,3 +234,9 @@ https://www.cnblogs.com/tt2015-sz/p/4654470.html#:~:text=%E6%B3%A8%E6%84%8F%EF%B
 
 ### windwos 源码安装报错
 ![image](https://github.com/zhupailiangx/Works/assets/120553507/827c75c1-c88f-4949-9dc5-e9971e9c7bbe)
+
+
+## 总结
+（1）Windows exe安装，有ipp优化
+（2）Linux sudo apt install libopencv-dev 安装没有ipp优化
+（3）Linux 和Windows源码安装opencv WITH_IPP=ON 需要配置代理权限
