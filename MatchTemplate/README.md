@@ -237,6 +237,6 @@ https://www.cnblogs.com/tt2015-sz/p/4654470.html#:~:text=%E6%B3%A8%E6%84%8F%EF%B
 
 
 ## 总结
-** （1）Windows exe安装，有ipp优化
-** （2）Linux sudo apt install libopencv-dev 安装没有ipp优化
-** （3）Linux 和Windows源码安装opencv WITH_IPP=ON 需要配置代理权限
+.. （1）Windows exe安装，有ipp优化
+.. （2）Linux sudo apt install libopencv-dev 安装没有ipp优化
+.. （3）Linux 和Windows源码安装opencv WITH_IPP=ON 需要配置代理权限
