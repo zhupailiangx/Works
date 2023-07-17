@@ -28,273 +28,184 @@ make -j8
 sudo make install
 ```
 
-<table border=0 cellpadding=0 cellspacing=0 width=775 style='border-collapse:
- collapse;table-layout:fixed;width:581pt'>
+<body link="#0563C1" vlink="#954F72">
+
+<table border=0 cellpadding=0 cellspacing=0 width=966 style='border-collapse:
+ collapse;table-layout:fixed;width:725pt'>
  <col width=64 style='width:48pt'>
  <col width=97 style='mso-width-source:userset;mso-width-alt:3547;width:73pt'>
- <col width=175 style='mso-width-source:userset;mso-width-alt:6400;width:131pt'>
- <col width=79 style='mso-width-source:userset;mso-width-alt:2889;width:59pt'>
+ <col width=184 style='mso-width-source:userset;mso-width-alt:6729;width:138pt'>
+ <col width=180 style='mso-width-source:userset;mso-width-alt:6582;width:135pt'>
+ <col width=81 style='mso-width-source:userset;mso-width-alt:2962;width:61pt'>
  <col width=180 span=2 style='mso-width-source:userset;mso-width-alt:6582;
  width:135pt'>
  <tr height=20 style='height:15.0pt'>
-  <td colspan=6 height=20 class=xl72 width=775 style='height:15.0pt;width:581pt'>MatchTemplate</td>
+  <td colspan=7 height=20 class=xl76 width=966 style='height:15.0pt;width:725pt'>MatchTemplate</td>
  </tr>
  <tr height=20 style='height:15.0pt'>
-  <td height=20 class=xl71 style='height:15.0pt;border-top:none'>&nbsp;</td>
-  <td colspan=2 class=xl72 style='border-left:none'>Linux</td>
-  <td colspan=3 class=xl72 style='border-left:none'>Windows</td>
+  <td height=20 class=xl68 style='height:15.0pt;border-top:none'>&nbsp;</td>
+  <td colspan=3 class=xl76 style='border-left:none'>Linux</td>
+  <td colspan=3 class=xl76 style='border-left:none'>Windows</td>
  </tr>
  <tr height=20 style='height:15.0pt'>
-  <td height=20 class=xl71 style='height:15.0pt;border-top:none'>Loop</td>
-  <td class=xl76 style='border-top:none;border-left:none'>libopencv-dev</td>
-  <td class=xl71 style='border-top:none;border-left:none'>Source code:
-  WITH_IPP=ON</td>
-  <td class=xl76 style='border-top:none;border-left:none'>exe&#23433;&#35013;</td>
-  <td class=xl71 style='border-top:none;border-left:none'>Source code:
+  <td height=20 class=xl68 style='height:15.0pt;border-top:none'>Loop</td>
+  <td class=xl72 style='border-top:none;border-left:none'>libopencv-dev</td>
+  <td class=xl68 style='border-top:none;border-left:none'>Source code:
   WITH_IPP=OFF</td>
-  <td class=xl71 style='border-top:none;border-left:none'>Source code:
+  <td class=xl68 style='border-top:none;border-left:none'>Source code:
+  WITH_IPP=ON</td>
+  <td class=xl72 style='border-top:none;border-left:none'>exe&#23433;&#35013;</td>
+  <td class=xl68 style='border-top:none;border-left:none'>Source code:
+  WITH_IPP=OFF</td>
+  <td class=xl68 style='border-top:none;border-left:none'>Source code:
   WITH_IPP=ON</td>
  </tr>
  <tr height=23 style='height:17.25pt'>
-  <td height=23 class=xl74 style='height:17.25pt;border-top:none'>1</td>
-  <td class=xl73 style='border-top:none;border-left:none'><span
+  <td height=23 class=xl70 style='height:17.25pt;border-top:none'>1</td>
+  <td class=xl69 style='border-top:none;border-left:none'>33.955</td>
+  <td class=xl69 style='border-top:none;border-left:none'><span
   style='font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
   text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
-  text-decoration-style: initial;text-decoration-color: initial'>33.955</span></td>
-  <td class=xl73 style='border-top:none;border-left:none'><span
-  style='font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
-  text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
-  text-decoration-style: initial;text-decoration-color: initial'>11.969&nbsp;</span></td>
-  <td class=xl75 style='border-top:none;border-left:none'>13.025</td>
-  <td class=xl73 style='border-top:none;border-left:none'><span
-  style='font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
-  text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
-  text-decoration-style: initial;text-decoration-color: initial'>&nbsp;32.068&nbsp;</span></td>
-  <td class=xl73 style='border-top:none;border-left:none'>12.727</td>
+  text-decoration-style: initial;text-decoration-color: initial'>&nbsp;33.821&nbsp;</span></td>
+  <td class=xl69 style='border-top:none;border-left:none'>11.969&nbsp;</td>
+  <td class=xl71 style='border-top:none;border-left:none'>13.025</td>
+  <td class=xl69 style='border-top:none;border-left:none'>&nbsp;32.068&nbsp;</td>
+  <td class=xl69 style='border-top:none;border-left:none'>12.727</td>
  </tr>
  <tr height=23 style='height:17.25pt'>
-  <td height=23 class=xl74 style='height:17.25pt;border-top:none'>2</td>
-  <td class=xl73 style='border-top:none;border-left:none'><span
+  <td height=23 class=xl70 style='height:17.25pt;border-top:none'>2</td>
+  <td class=xl69 style='border-top:none;border-left:none'>&nbsp;33.096</td>
+  <td class=xl69 style='border-top:none;border-left:none'><span
   style='font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
   text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
-  text-decoration-style: initial;text-decoration-color: initial'>&nbsp;33.096</span></td>
-  <td class=xl73 style='border-top:none;border-left:none'><span
-  style='font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
-  text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
-  text-decoration-style: initial;text-decoration-color: initial'>10.572</span></td>
-  <td class=xl73 style='border-top:none;border-left:none'><span
-  style='font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
-  text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
-  text-decoration-style: initial;text-decoration-color: initial'>11.083</span></td>
-  <td class=xl73 style='border-top:none;border-left:none'><span
-  style='font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
-  text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
-  text-decoration-style: initial;text-decoration-color: initial'>31.659</span></td>
-  <td class=xl73 style='border-top:none;border-left:none'><span
-  style='font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
-  text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
-  text-decoration-style: initial;text-decoration-color: initial'>11.319</span></td>
+  text-decoration-style: initial;text-decoration-color: initial'>32.687&nbsp;</span></td>
+  <td class=xl69 style='border-top:none;border-left:none'>10.572</td>
+  <td class=xl69 style='border-top:none;border-left:none'>11.083</td>
+  <td class=xl69 style='border-top:none;border-left:none'>31.659</td>
+  <td class=xl69 style='border-top:none;border-left:none'>11.319</td>
  </tr>
  <tr height=23 style='height:17.25pt'>
-  <td height=23 class=xl74 style='height:17.25pt;border-top:none'>3</td>
-  <td class=xl73 style='border-top:none;border-left:none'><span
+  <td height=23 class=xl70 style='height:17.25pt;border-top:none'>3</td>
+  <td class=xl69 style='border-top:none;border-left:none'>33.122</td>
+  <td class=xl69 style='border-top:none;border-left:none'><span
   style='font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
   text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
-  text-decoration-style: initial;text-decoration-color: initial'>33.122</span></td>
-  <td class=xl73 style='border-top:none;border-left:none'>10.413</td>
-  <td class=xl73 style='border-top:none;border-left:none'><span
-  style='font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
-  text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
-  text-decoration-style: initial;text-decoration-color: initial'>11.847</span></td>
-  <td class=xl73 style='border-top:none;border-left:none'><span
-  style='font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
-  text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
-  text-decoration-style: initial;text-decoration-color: initial'>31.753</span></td>
-  <td class=xl73 style='border-top:none;border-left:none'><span
-  style='font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
-  text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
-  text-decoration-style: initial;text-decoration-color: initial'>11.297</span></td>
+  text-decoration-style: initial;text-decoration-color: initial'>32.656</span></td>
+  <td class=xl69 style='border-top:none;border-left:none'>10.413</td>
+  <td class=xl69 style='border-top:none;border-left:none'>11.847</td>
+  <td class=xl69 style='border-top:none;border-left:none'>31.753</td>
+  <td class=xl69 style='border-top:none;border-left:none'>11.297</td>
  </tr>
  <tr height=23 style='height:17.25pt'>
-  <td height=23 class=xl74 style='height:17.25pt;border-top:none'>4</td>
-  <td class=xl73 style='border-top:none;border-left:none'><span
+  <td height=23 class=xl70 style='height:17.25pt;border-top:none'>4</td>
+  <td class=xl69 style='border-top:none;border-left:none'>33.185</td>
+  <td class=xl69 style='border-top:none;border-left:none'><span
   style='font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
   text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
-  text-decoration-style: initial;text-decoration-color: initial'>33.185</span></td>
-  <td class=xl73 style='border-top:none;border-left:none'><span
-  style='font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
-  text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
-  text-decoration-style: initial;text-decoration-color: initial'>10.561</span></td>
-  <td class=xl73 style='border-top:none;border-left:none'><span
-  style='font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
-  text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
-  text-decoration-style: initial;text-decoration-color: initial'>12.067&nbsp;</span></td>
-  <td class=xl73 style='border-top:none;border-left:none'><span
-  style='font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
-  text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
-  text-decoration-style: initial;text-decoration-color: initial'>&nbsp;31.333</span></td>
-  <td class=xl73 style='border-top:none;border-left:none'><span
-  style='font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
-  text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
-  text-decoration-style: initial;text-decoration-color: initial'>11.595</span></td>
+  text-decoration-style: initial;text-decoration-color: initial'>32.632</span></td>
+  <td class=xl69 style='border-top:none;border-left:none'>10.561</td>
+  <td class=xl69 style='border-top:none;border-left:none'>12.067&nbsp;</td>
+  <td class=xl69 style='border-top:none;border-left:none'>&nbsp;31.333</td>
+  <td class=xl69 style='border-top:none;border-left:none'>11.595</td>
  </tr>
  <tr height=23 style='height:17.25pt'>
-  <td height=23 class=xl74 style='height:17.25pt;border-top:none'>5</td>
-  <td class=xl73 style='border-top:none;border-left:none'><span
+  <td height=23 class=xl70 style='height:17.25pt;border-top:none'>5</td>
+  <td class=xl69 style='border-top:none;border-left:none'>33.057</td>
+  <td class=xl69 style='border-top:none;border-left:none'><span
   style='font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
   text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
-  text-decoration-style: initial;text-decoration-color: initial'>33.057</span></td>
-  <td class=xl73 style='border-top:none;border-left:none'><span
-  style='font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
-  text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
-  text-decoration-style: initial;text-decoration-color: initial'>10.485</span></td>
-  <td class=xl73 style='border-top:none;border-left:none'><span
-  style='font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
-  text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
-  text-decoration-style: initial;text-decoration-color: initial'>11.203</span></td>
-  <td class=xl73 style='border-top:none;border-left:none'>32.464</td>
-  <td class=xl73 style='border-top:none;border-left:none'><span
-  style='font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
-  text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
-  text-decoration-style: initial;text-decoration-color: initial'>11.239</span></td>
+  text-decoration-style: initial;text-decoration-color: initial'>32.69</span></td>
+  <td class=xl69 style='border-top:none;border-left:none'>10.485</td>
+  <td class=xl69 style='border-top:none;border-left:none'>11.203</td>
+  <td class=xl69 style='border-top:none;border-left:none'>32.464</td>
+  <td class=xl69 style='border-top:none;border-left:none'>11.239</td>
  </tr>
  <tr height=23 style='height:17.25pt'>
-  <td height=23 class=xl74 style='height:17.25pt;border-top:none'>6</td>
-  <td class=xl73 style='border-top:none;border-left:none'><span
+  <td height=23 class=xl70 style='height:17.25pt;border-top:none'>6</td>
+  <td class=xl69 style='border-top:none;border-left:none'>33.058</td>
+  <td class=xl69 style='border-top:none;border-left:none'><span
   style='font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
   text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
-  text-decoration-style: initial;text-decoration-color: initial'>33.058</span></td>
-  <td class=xl73 style='border-top:none;border-left:none'>10.574</td>
-  <td class=xl73 style='border-top:none;border-left:none'><span
-  style='font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
-  text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
-  text-decoration-style: initial;text-decoration-color: initial'>11.896&nbsp;</span></td>
-  <td class=xl73 style='border-top:none;border-left:none'><span
-  style='font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
-  text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
-  text-decoration-style: initial;text-decoration-color: initial'>31.516</span></td>
-  <td class=xl73 style='border-top:none;border-left:none'><span
-  style='font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
-  text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
-  text-decoration-style: initial;text-decoration-color: initial'>12.118</span></td>
+  text-decoration-style: initial;text-decoration-color: initial'>32.626</span></td>
+  <td class=xl69 style='border-top:none;border-left:none'>10.574</td>
+  <td class=xl69 style='border-top:none;border-left:none'>11.896&nbsp;</td>
+  <td class=xl69 style='border-top:none;border-left:none'>31.516</td>
+  <td class=xl69 style='border-top:none;border-left:none'>12.118</td>
  </tr>
  <tr height=23 style='height:17.25pt'>
-  <td height=23 class=xl74 style='height:17.25pt;border-top:none'>7</td>
-  <td class=xl73 style='border-top:none;border-left:none'>33.074</td>
-  <td class=xl73 style='border-top:none;border-left:none'>10.61</td>
-  <td class=xl73 style='border-top:none;border-left:none'><span
+  <td height=23 class=xl70 style='height:17.25pt;border-top:none'>7</td>
+  <td class=xl69 style='border-top:none;border-left:none'>33.074</td>
+  <td class=xl69 style='border-top:none;border-left:none'><span
   style='font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
   text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
-  text-decoration-style: initial;text-decoration-color: initial'>12.263</span></td>
-  <td class=xl73 style='border-top:none;border-left:none'><span
-  style='font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
-  text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
-  text-decoration-style: initial;text-decoration-color: initial'>33.159</span></td>
-  <td class=xl73 style='border-top:none;border-left:none'><span
-  style='font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
-  text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
-  text-decoration-style: initial;text-decoration-color: initial'>11.787&nbsp;</span></td>
+  text-decoration-style: initial;text-decoration-color: initial'>32.507</span></td>
+  <td class=xl69 style='border-top:none;border-left:none'>10.61</td>
+  <td class=xl69 style='border-top:none;border-left:none'>12.263</td>
+  <td class=xl69 style='border-top:none;border-left:none'>33.159</td>
+  <td class=xl69 style='border-top:none;border-left:none'>11.787&nbsp;</td>
  </tr>
  <tr height=23 style='height:17.25pt'>
-  <td height=23 class=xl74 style='height:17.25pt;border-top:none'>8</td>
-  <td class=xl73 style='border-top:none;border-left:none'><span
+  <td height=23 class=xl70 style='height:17.25pt;border-top:none'>8</td>
+  <td class=xl69 style='border-top:none;border-left:none'>33.19</td>
+  <td class=xl69 style='border-top:none;border-left:none'><span
   style='font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
   text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
-  text-decoration-style: initial;text-decoration-color: initial'>33.19</span></td>
-  <td class=xl73 style='border-top:none;border-left:none'><span
-  style='font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
-  text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
-  text-decoration-style: initial;text-decoration-color: initial'>10.513&nbsp;</span></td>
-  <td class=xl73 style='border-top:none;border-left:none'><span
-  style='font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
-  text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
-  text-decoration-style: initial;text-decoration-color: initial'>12.429</span></td>
-  <td class=xl73 style='border-top:none;border-left:none'><span
-  style='font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
-  text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
-  text-decoration-style: initial;text-decoration-color: initial'>31.737</span></td>
-  <td class=xl73 style='border-top:none;border-left:none'><span
-  style='font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
-  text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
-  text-decoration-style: initial;text-decoration-color: initial'>11.843</span></td>
+  text-decoration-style: initial;text-decoration-color: initial'>32.732</span></td>
+  <td class=xl69 style='border-top:none;border-left:none'>10.513&nbsp;</td>
+  <td class=xl69 style='border-top:none;border-left:none'>12.429</td>
+  <td class=xl69 style='border-top:none;border-left:none'>31.737</td>
+  <td class=xl69 style='border-top:none;border-left:none'>11.843</td>
  </tr>
  <tr height=23 style='height:17.25pt'>
-  <td height=23 class=xl74 style='height:17.25pt;border-top:none'>9</td>
-  <td class=xl73 style='border-top:none;border-left:none'>33.261</td>
-  <td class=xl73 style='border-top:none;border-left:none'><span
+  <td height=23 class=xl70 style='height:17.25pt;border-top:none'>9</td>
+  <td class=xl69 style='border-top:none;border-left:none'>33.261</td>
+  <td class=xl69 style='border-top:none;border-left:none'><span
   style='font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
   text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
-  text-decoration-style: initial;text-decoration-color: initial'>10.53</span></td>
-  <td class=xl73 style='border-top:none;border-left:none'><span
-  style='font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
-  text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
-  text-decoration-style: initial;text-decoration-color: initial'>11.097</span></td>
-  <td class=xl73 style='border-top:none;border-left:none'><span
-  style='font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
-  text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
-  text-decoration-style: initial;text-decoration-color: initial'>32.896&nbsp;</span></td>
-  <td class=xl73 style='border-top:none;border-left:none'><span
-  style='font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
-  text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
-  text-decoration-style: initial;text-decoration-color: initial'>11.408</span></td>
+  text-decoration-style: initial;text-decoration-color: initial'>32.554</span></td>
+  <td class=xl69 style='border-top:none;border-left:none'>10.53</td>
+  <td class=xl69 style='border-top:none;border-left:none'>11.097</td>
+  <td class=xl69 style='border-top:none;border-left:none'>32.896&nbsp;</td>
+  <td class=xl69 style='border-top:none;border-left:none'>11.408</td>
  </tr>
  <tr height=23 style='height:17.25pt'>
-  <td height=23 class=xl74 style='height:17.25pt;border-top:none'>10</td>
-  <td class=xl73 style='border-top:none;border-left:none'><span
+  <td height=23 class=xl70 style='height:17.25pt;border-top:none'>10</td>
+  <td class=xl69 style='border-top:none;border-left:none'>33.141</td>
+  <td class=xl69 style='border-top:none;border-left:none'><span
   style='font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
   text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
-  text-decoration-style: initial;text-decoration-color: initial'>33.141</span></td>
-  <td class=xl73 style='border-top:none;border-left:none'><span
-  style='font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
-  text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
-  text-decoration-style: initial;text-decoration-color: initial'>10.591</span></td>
-  <td class=xl73 style='border-top:none;border-left:none'><span
-  style='font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
-  text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
-  text-decoration-style: initial;text-decoration-color: initial'>11.662</span></td>
-  <td class=xl73 style='border-top:none;border-left:none'><span
-  style='font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
-  text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
-  text-decoration-style: initial;text-decoration-color: initial'>&nbsp;32.580&nbsp;</span></td>
-  <td class=xl73 style='border-top:none;border-left:none'><span
-  style='font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
-  text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
-  text-decoration-style: initial;text-decoration-color: initial'>12.206</span></td>
+  text-decoration-style: initial;text-decoration-color: initial'>32.514</span></td>
+  <td class=xl69 style='border-top:none;border-left:none'>10.591</td>
+  <td class=xl69 style='border-top:none;border-left:none'>11.662</td>
+  <td class=xl69 style='border-top:none;border-left:none'>&nbsp;32.580&nbsp;</td>
+  <td class=xl69 style='border-top:none;border-left:none'>12.206</td>
  </tr>
  <tr height=23 style='height:17.25pt'>
-  <td height=23 class=xl71 style='height:17.25pt;border-top:none'>mean</td>
-  <td class=xl73 style='border-top:none;border-left:none'><span
+  <td height=23 class=xl68 style='height:17.25pt;border-top:none'>mean</td>
+  <td class=xl69 style='border-top:none;border-left:none'>33.214</td>
+  <td class=xl69 style='border-top:none;border-left:none'><span
   style='font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
   text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
-  text-decoration-style: initial;text-decoration-color: initial'>33.214</span></td>
-  <td class=xl73 style='border-top:none;border-left:none'><span
-  style='font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
-  text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
-  text-decoration-style: initial;text-decoration-color: initial'>10.682</span></td>
-  <td class=xl73 style='border-top:none;border-left:none'><span
-  style='font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
-  text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
-  text-decoration-style: initial;text-decoration-color: initial'>11.857</span></td>
-  <td class=xl73 style='border-top:none;border-left:none'><span
-  style='font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
-  text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
-  text-decoration-style: initial;text-decoration-color: initial'>32.116</span></td>
-  <td class=xl73 style='border-top:none;border-left:none'><span
-  style='font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
-  text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
-  text-decoration-style: initial;text-decoration-color: initial'>11.754</span></td>
+  text-decoration-style: initial;text-decoration-color: initial'>32.742</span></td>
+  <td class=xl69 style='border-top:none;border-left:none'>10.682</td>
+  <td class=xl69 style='border-top:none;border-left:none'>11.857</td>
+  <td class=xl69 style='border-top:none;border-left:none'>32.116</td>
+  <td class=xl69 style='border-top:none;border-left:none'>11.754</td>
  </tr>
  <![if supportMisalignedColumns]>
  <tr height=0 style='display:none'>
   <td width=64 style='width:48pt'></td>
   <td width=97 style='width:73pt'></td>
-  <td width=175 style='width:131pt'></td>
-  <td width=79 style='width:59pt'></td>
+  <td width=184 style='width:138pt'></td>
+  <td width=180 style='width:135pt'></td>
+  <td width=81 style='width:61pt'></td>
   <td width=180 style='width:135pt'></td>
   <td width=180 style='width:135pt'></td>
  </tr>
  <![endif]>
 </table>
+
+</body>
 
 ## windows exe 
 opencv match template took 13.025 milliseconds
