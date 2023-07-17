@@ -14,6 +14,6 @@ message(STATUS "> include: ${OpenCV_INCLUDE_DIRS}  ")
 include_directories(${OpenCV_INCLUDE_DIRS}) 
 
 
-add_executable(MathTemplate main.cpp)
+add_executable(MathTemplate MatchTemplate2.cpp)
 
 target_link_libraries(MathTemplate ${OpenCV_LIBS})
