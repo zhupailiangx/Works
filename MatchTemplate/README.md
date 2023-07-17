@@ -206,62 +206,22 @@ sudo make install
 </table>
 
 </body>
+## Vtune 分析
+### windows exe 
 
-## windows exe 
-opencv match template took 13.025 milliseconds
-opencv match template took 11.083 milliseconds
-opencv match template took 11.847 milliseconds
-opencv match template took 12.067 milliseconds
-opencv match template took 11.203 milliseconds
-opencv match template took 11.896 milliseconds
-opencv match template took 12.263 milliseconds
-opencv match template took 12.429 milliseconds
-opencv match template took 11.097 milliseconds
-opencv match template took 11.662 milliseconds
-opencv     took average 11.857 milliseconds
 ![image](https://github.com/zhupailiangx/Works/assets/120553507/f8e7857d-4658-473b-984b-9bfc5caf9edd)
 
-## windows souece code WITH_IPP=OFF
-opencv match template took 32.068 milliseconds
-opencv match template took 31.659 milliseconds
-opencv match template took 31.753 milliseconds
-opencv match template took 31.333 milliseconds
-opencv match template took 32.464 milliseconds
-opencv match template took 31.516 milliseconds
-opencv match template took 33.159 milliseconds
-opencv match template took 31.737 milliseconds
-opencv match template took 32.896 milliseconds
-opencv match template took 32.580 milliseconds
-opencv     took average 32.116 milliseconds
+### windows souece code WITH_IPP=OFF
+
 ![image](https://github.com/zhupailiangx/Works/assets/120553507/d94cfefe-7c90-4b49-b738-034cab94b260)
 
-## windows souce code WITH_IPP=ON
-opencv match template took 12.727 milliseconds
-opencv match template took 11.319 milliseconds
-opencv match template took 11.297 milliseconds
-opencv match template took 11.595 milliseconds
-opencv match template took 11.239 milliseconds
-opencv match template took 12.118 milliseconds
-opencv match template took 11.787 milliseconds
-opencv match template took 11.843 milliseconds
-opencv match template took 11.408 milliseconds
-opencv match template took 12.206 milliseconds
-opencv     took average 11.754 milliseconds
+### windows souce code WITH_IPP=ON
+
 
 ![image](https://github.com/zhupailiangx/Works/assets/120553507/559be1b3-65bc-425a-9f0c-cb03aa8bb995)
 
-## Linux WITH_IPP=OFF
-opencv match template took 33.821 milliseconds 
-opencv match template took 32.687 milliseconds 
-opencv match template took 32.656 milliseconds 
-opencv match template took 32.632 milliseconds 
-opencv match template took 32.690 milliseconds 
-opencv match template took 32.626 milliseconds 
-opencv match template took 32.507 milliseconds 
-opencv match template took 32.732 milliseconds 
-opencv match template took 32.554 milliseconds 
-opencv match template took 32.514 milliseconds 
-opencv     took average 32.742 milliseconds 
+### Linux WITH_IPP=OFF
+
 ## 其他
 ![image](https://github.com/zhupailiangx/Works/assets/120553507/827c75c1-c88f-4949-9dc5-e9971e9c7bbe)
 
