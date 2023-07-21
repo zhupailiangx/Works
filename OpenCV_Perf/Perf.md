@@ -11,3 +11,14 @@ cd bin
 ./opencv_perf_core or ./opencv_perf_imgproc
 
 ```
+## Windows 
+```
+download opencv exe
+open Powershell
+cd opencv/sources
+mkdir build
+cmake ..
+cmake --build . --target opencv_perf_core opencv_perf_imgproc
+cd bin
+./opencv_perf_core.exe or ./opencv_perf_imgproc.exe
+```
