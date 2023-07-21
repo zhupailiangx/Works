@@ -25,6 +25,6 @@ cd opencv
 mkdir build
 cmake ..
 cmake --build . --target opencv_perf_core opencv_perf_imgproc
-cd bin
+cd bin/Release
 ./opencv_perf_core.exe or ./opencv_perf_imgproc.exe
 ```
