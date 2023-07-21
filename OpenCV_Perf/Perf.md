@@ -19,9 +19,9 @@ cd bin
 ```
 ## Windows 
 ```
-download opencv exe
+download opencv source code
 open Powershell
-cd opencv/sources
+cd opencv
 mkdir build
 cmake ..
 cmake --build . --target opencv_perf_core opencv_perf_imgproc
