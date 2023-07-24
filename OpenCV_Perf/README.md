@@ -31,11 +31,17 @@ opencv_perf_imgproc.exe
 ```
 Download build_perf.sh
 sh build_perf.sh
+cd bin
+./opencv_perf_core
+./opencv_perf_imgproc
 ```
 ### Windows
 ```
 Download build_perf.bat
 build_perf.bat
+cd bin/Release
+opencv_perf_core.exe
+opencv_perf_imgproc.exe
 ```
 
 ## Result
