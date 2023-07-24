@@ -1,5 +1,6 @@
 #!/bin/bash
 git clone -b 4.5.5 https://github.com/opencv/opencv.git
+cd opencv
 if [ ! -d build ]; then
 	mkdir build
 fi
