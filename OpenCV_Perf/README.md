@@ -9,7 +9,8 @@ cmake -DBUILD_PERF_TESTS=ON ..
 # opencv_perfcalib3d,opencv_perf_dnn,opencv_perf_features2d,opencv_perf_imgcodes,opencv_perf_objdetect,opencv_perf_photo,opencv_perf_stitching,opencv_perf_video,opencv_perf_videoio,opencv_perf_core,opencv_perf_imgproc
 make -j8 opencv_perf_core opencv_perf_imgproc
 cd bin
-./opencv_perf_core or ./opencv_perf_imgproc
+./opencv_perf_core
+./opencv_perf_imgproc
 ```
 
 
@@ -22,5 +23,6 @@ mkdir build
 cmake -DBUILD_PERF_TESTS=ON ..
 cmake --build . --target opencv_perf_core opencv_perf_imgproc
 cd bin/Release
-./opencv_perf_core.exe or ./opencv_perf_imgproc.exe
+./opencv_perf_core.exe
+./opencv_perf_imgproc.exe
 ```
