@@ -5,7 +5,7 @@
 download opencv source code
 cd <source code path>
 mkdir build
-cmake -DBUILD_PERF_TESTS=ON ..
+cmake -DCMAKE_BUILD_TYPE=Release -DBUILD_PERF_TESTS=ON ..
 # opencv_perfcalib3d,opencv_perf_dnn,opencv_perf_features2d,opencv_perf_imgcodes,opencv_perf_objdetect,opencv_perf_photo,opencv_perf_stitching,opencv_perf_video,opencv_perf_videoio,opencv_perf_core,opencv_perf_imgproc
 make -j$(nproc) opencv_perf_core opencv_perf_imgproc
 cd bin
@@ -20,7 +20,7 @@ download opencv source code
 open Powershell
 cd opencv
 mkdir build
-cmake -DBUILD_PERF_TESTS=ON ..
+cmake -DCMAKE_BUILD_TYPE=Release -DBUILD_PERF_TESTS=ON ..
 cmake --build . --target opencv_perf_core opencv_perf_imgproc
 cd bin/Release
 ./opencv_perf_core.exe
