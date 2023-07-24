@@ -1,3 +1,5 @@
+git clone -b https://github.com/opencv/opencv.git
+cd opencv
 if not exist build\ (
     mkdir build
 )
