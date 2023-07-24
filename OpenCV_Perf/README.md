@@ -2,7 +2,7 @@
 
 ## Linux
 ```
-download opencv source code
+Download OpenCV source code
 cd <source code path>
 mkdir build
 cmake -DCMAKE_BUILD_TYPE=Release -DBUILD_PERF_TESTS=ON ..
@@ -16,16 +16,30 @@ cd bin
 
 ## Windows 
 ```
-download opencv source code
+Download OpenCV source code
 open Powershell
 cd opencv
 mkdir build
 cmake -DCMAKE_BUILD_TYPE=Release -DBUILD_PERF_TESTS=ON ..
 cmake --build . --target opencv_perf_core opencv_perf_imgproc
 cd bin/Release
-./opencv_perf_core.exe
-./opencv_perf_imgproc.exe
+opencv_perf_core.exe
+opencv_perf_imgproc.exe
 ```
+## Scripts
+### Linux
+```
+Download build_perf.sh
+cd OpenCV source code
+sh build_perf.sh
+```
+### Windows
+```
+Download build_perf.bat
+cd cd OpenCV source code
+build_perf.bat
+```
+
 ## Result
 ![image](https://github.com/zhupailiangx/Works/assets/120553507/73470fe8-5d84-4425-93ac-49a7bd9f531c)
 
