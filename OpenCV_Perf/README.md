@@ -17,7 +17,7 @@ cd bin
 ## Windows 
 ```
 Download OpenCV source code
-open Powershell
+open cmd
 cd opencv
 mkdir build
 cmake -DCMAKE_BUILD_TYPE=Release -DBUILD_PERF_TESTS=ON ..
