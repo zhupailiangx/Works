@@ -26,3 +26,13 @@ cd bin/Release
 ./opencv_perf_core.exe
 ./opencv_perf_imgproc.exe
 ```
+## Result
+
+
+```
+samples - number of collected samples;
+min - minimal observed time;
+median - median over all collected time measurements;
+mean - mean;
+stddev - standard deviation.
+```
