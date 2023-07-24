@@ -12,9 +12,3 @@ cd bin
 ./opencv_perf_core
 ./opencv_perf_imgproc
 
-
-make -j$(nproc) opencv_perf_core opencv_perf_imgproc
-cd bin
-./opencv_perf_core
-./opencv_perf_imgproc 
-
