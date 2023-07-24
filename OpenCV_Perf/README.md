@@ -30,13 +30,11 @@ opencv_perf_imgproc.exe
 ### Linux
 ```
 Download build_perf.sh
-cd <source code path>
 sh build_perf.sh
 ```
 ### Windows
 ```
 Download build_perf.bat
-cd <source code path>
 build_perf.bat
 ```
 
