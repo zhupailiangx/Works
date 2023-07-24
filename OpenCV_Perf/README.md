@@ -27,7 +27,7 @@ cd bin/Release
 ./opencv_perf_imgproc.exe
 ```
 ## Result
-![image](https://github.com/zhupailiangx/Works/assets/120553507/73470fe8-5d84-4425-93ac-49a7bd9f531c)![image](https://github.com/zhupailiangx/Works/assets/120553507/b941228a-d859-4e6b-9efe-55a97c1952a9)
+![image](https://github.com/zhupailiangx/Works/assets/120553507/73470fe8-5d84-4425-93ac-49a7bd9f531c)
 
 
 ```
