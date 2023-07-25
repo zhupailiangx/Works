@@ -72,6 +72,63 @@ CV_32S - 32位有符号整数（-2147483648…2147483647）
 CV_32F - 32位浮点数（-FLT_MAX…FLT_MAX，INF，NAN）
 
 CV_64F - 64位浮点数（-DBL_MAX…DBL_MAX，INF，NAN）
+<body link="#0563C1" vlink="#954F72">
+
+<table border=0 cellpadding=0 cellspacing=0 width=1288 style='border-collapse:
+ collapse;table-layout:fixed;width:967pt'>
+ <col width=812 style='mso-width-source:userset;mso-width-alt:29696;width:609pt'>
+ <col width=138 style='mso-width-source:userset;mso-width-alt:5046;width:104pt'>
+ <col width=232 style='mso-width-source:userset;mso-width-alt:8484;width:174pt'>
+ <col width=106 style='mso-width-source:userset;mso-width-alt:3876;width:80pt'>
+ <tr height=20 style='height:15.0pt'>
+  <td colspan=4 height=20 class=xl67 width=1288 style='height:15.0pt;
+  width:967pt'>Core</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl65 style='height:15.0pt;border-top:none'>case</td>
+  <td class=xl65 style='border-top:none;border-left:none'>Size</td>
+  <td class=xl65 style='border-top:none;border-left:none'>Type</td>
+  <td class=xl65 style='border-top:none;border-left:none'>number of tests</td>
+ </tr>
+ <tr height=40 style='height:30.0pt'>
+  <td height=40 class=xl65 style='height:30.0pt;border-top:none'>Size_MatType_abs</td>
+  <td class=xl66 width=138 style='border-top:none;border-left:none;width:104pt'>(640,
+  480),(1280, 720)<br>
+    (1280, 720),(127, 61)</td>
+  <td class=xl66 width=232 style='border-top:none;border-left:none;width:174pt'><span
+  style='mso-spacerun:yes'>  </span>CV_8SC1, CV_8SC4, <br>
+    CV_32SC1, CV_32FC1</td>
+  <td class=xl65 style='border-top:none;border-left:none'>16</td>
+ </tr>
+ <tr height=60 style='height:45.0pt'>
+  <td height=60 class=xl65 style='height:45.0pt;border-top:none'>Size_MatType_addWeighted</td>
+  <td class=xl66 width=138 style='border-top:none;border-left:none;width:104pt'>(640,
+  480),(1280, 720),<br>
+    (1920, 1080)</td>
+  <td class=xl66 width=232 style='border-top:none;border-left:none;width:174pt'>CV_8UC1,
+  CV_8UC4, CV_8SC1,<br>
+    <span style='mso-spacerun:yes'> </span>CV_16UC1, CV_16SC1, CV_32SC1</td>
+  <td class=xl65 style='border-top:none;border-left:none'>18</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td colspan=3 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td colspan=3 style='mso-ignore:colspan'></td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=812 style='width:609pt'></td>
+  <td width=138 style='width:104pt'></td>
+  <td width=232 style='width:174pt'></td>
+  <td width=106 style='width:80pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+</body>
 
 
 ### gtest filter results
