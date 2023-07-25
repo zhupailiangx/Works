@@ -44,7 +44,8 @@ opencv_perf_core.exe
 opencv_perf_imgproc.exe
 ```
 
-## Result
+## Results
+### original results
 ![image](https://github.com/zhupailiangx/Works/assets/120553507/73470fe8-5d84-4425-93ac-49a7bd9f531c)
 
 
@@ -55,3 +56,9 @@ median - median over all collected time measurements;
 mean - mean;
 stddev - standard deviation.
 ```
+### gtest filter results
+```
+./opencv_perf_core --gtest_filter=*/0 (1,2,3,4....)
+```
+![image](https://github.com/zhupailiangx/Works/assets/120553507/aefebc6a-6be0-48a9-8e26-81578dc9a070)
+
