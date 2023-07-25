@@ -72,6 +72,7 @@ CV_32S - 32位有符号整数（-2147483648…2147483647）
 CV_32F - 32位浮点数（-FLT_MAX…FLT_MAX，INF，NAN）
 
 CV_64F - 64位浮点数（-DBL_MAX…DBL_MAX，INF，NAN）
+
 <body link="#0563C1" vlink="#954F72">
 
 <table border=0 cellpadding=0 cellspacing=0 width=1288 style='border-collapse:
@@ -81,7 +82,7 @@ CV_64F - 64位浮点数（-DBL_MAX…DBL_MAX，INF，NAN）
  <col width=232 style='mso-width-source:userset;mso-width-alt:8484;width:174pt'>
  <col width=106 style='mso-width-source:userset;mso-width-alt:3876;width:80pt'>
  <tr height=20 style='height:15.0pt'>
-  <td colspan=4 height=20 class=xl67 width=1288 style='height:15.0pt;
+  <td colspan=4 height=20 class=xl67 align ="center" width=1288 style='height:15.0pt;
   width:967pt'>Core</td>
  </tr>
  <tr height=20 style='height:15.0pt'>
