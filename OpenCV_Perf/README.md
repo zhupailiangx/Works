@@ -45,7 +45,7 @@ opencv_perf_imgproc.exe
 ```
 
 ## Results
-### original results
+### Original core results
 ![image](https://github.com/zhupailiangx/Works/assets/120553507/73470fe8-5d84-4425-93ac-49a7bd9f531c)
 
 
