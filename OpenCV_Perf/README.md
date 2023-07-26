@@ -117,7 +117,7 @@ CV_64F - 64位浮点数
 
 ### gtest filter results
 ```
-./opencv_perf_core --gtest_param_filter=*640x480*?*8UC1* --gtest_filter=OCL_LUTFixture_LUT.LUT*
+./opencv_perf_core -perf_min_samples=100 -perf_force_samples=100 --gtest_filter=Size_MatType_NormType_norm* --gtest_param_filter=*640x480*?*8UC1*
 ```
 ![image](https://github.com/zhupailiangx/Works/assets/120553507/be2fbdf2-d817-4c1b-a366-1472834aa7b9)
 
