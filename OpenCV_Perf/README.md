@@ -111,7 +111,7 @@ CV_64F - 64位浮点数（-DBL_MAX…DBL_MAX，INF，NAN）
     <span style='mso-spacerun:yes'> </span>CV_16UC1, CV_16SC1, CV_32SC1</td>
   <td class=xl65 style='border-top:none;border-left:none'>18</td>
 
- <![endif]>
+
 </table>
 
 </body>
