@@ -162,6 +162,11 @@ Example
 ```
 ![image](https://github.com/zhupailiangx/Works/assets/120553507/db0c2f38-c59c-49c8-9256-2f5b38ef7d58)
 
+```
+./opencv_perf_core --gtest_param_filter=*640x480*?*8UC1*
+./opencv_perf_imgproc   --gtest_param_filter=*640x480*?*8UC1*
+```
+
 <table border=0 cellpadding=0 cellspacing=0 width=730 style='border-collapse:
  collapse;table-layout:fixed;width:548pt'>
  <col width=108 style='mso-width-source:userset;mso-width-alt:3949;width:81pt'>
