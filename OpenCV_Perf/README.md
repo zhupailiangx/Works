@@ -210,19 +210,7 @@ Example
  <tr height=20 style='height:15.0pt'>
   <td height=20 colspan=8 style='height:15.0pt;mso-ignore:colspan'></td>
   <td class=xl70></td>
- </tr>
- <![if supportMisalignedColumns]>
- <tr height=0 style='display:none'>
-  <td width=108 style='width:81pt'></td>
-  <td width=64 style='width:48pt'></td>
-  <td width=96 style='width:72pt'></td>
-  <td width=96 style='width:72pt'></td>
-  <td width=110 style='width:83pt'></td>
-  <td width=64 style='width:48pt'></td>
-  <td width=64 style='width:48pt'></td>
-  <td width=64 style='width:48pt'></td>
-  <td width=64 style='width:48pt'></td>
- </tr>
- <![endif]>
+
+
 </table>
 
