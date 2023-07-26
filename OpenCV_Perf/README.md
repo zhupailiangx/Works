@@ -166,6 +166,7 @@ Example
 ./opencv_perf_core --gtest_param_filter=*640x480*?*8UC1*
 ./opencv_perf_imgproc   --gtest_param_filter=*640x480*?*8UC1*
 ```
+<body link="#0563C1" vlink="#954F72">
 
 <table border=0 cellpadding=0 cellspacing=0 width=474 style='border-collapse:
  collapse;table-layout:fixed;width:356pt'>
@@ -184,13 +185,29 @@ Example
  <tr height=20 style='height:15.0pt'>
   <td height=20 class=xl65 style='height:15.0pt;border-top:none'>Number of
   case<span style='mso-spacerun:yes'> </span></td>
-
+  <td class=xl65 style='border-top:none;border-left:none'>125</td>
+  <td class=xl65 style='border-top:none;border-left:none'>76</td>
+  <td class=xl65 style='border-top:none;border-left:none'>146</td>
+  <td class=xl65 style='border-top:none;border-left:none'>67</td>
  </tr>
  <tr height=20 style='height:15.0pt'>
   <td height=20 class=xl65 style='height:15.0pt;border-top:none'>Number of
   tests</td>
- 
+  <td class=xl65 style='border-top:none;border-left:none'>4131</td>
+  <td class=xl65 style='border-top:none;border-left:none'>209</td>
+  <td class=xl65 style='border-top:none;border-left:none'>5384</td>
+  <td class=xl65 style='border-top:none;border-left:none'>149</td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=108 style='width:81pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=96 style='width:72pt'></td>
+  <td width=96 style='width:72pt'></td>
+  <td width=110 style='width:83pt'></td>
  </tr>
  <![endif]>
 </table>
+
+</body>
 
