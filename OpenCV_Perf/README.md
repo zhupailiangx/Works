@@ -110,19 +110,7 @@ CV_64F - 64位浮点数（-DBL_MAX…DBL_MAX，INF，NAN）
   CV_8UC4, CV_8SC1,<br>
     <span style='mso-spacerun:yes'> </span>CV_16UC1, CV_16SC1, CV_32SC1</td>
   <td class=xl65 style='border-top:none;border-left:none'>18</td>
- </tr>
- <tr height=20 style='height:15.0pt'>
-  <td height=20 style='height:15.0pt'></td>
-  <td colspan=3 style='mso-ignore:colspan'></td>
- </tr>
- <tr height=20 style='height:15.0pt'>
-  <td height=20 style='height:15.0pt'></td>
-  <td colspan=3 style='mso-ignore:colspan'></td>
- </tr>
- <![if supportMisalignedColumns]>
- <tr height=0 style='display:none'>
- 
- </tr>
+
  <![endif]>
 </table>
 
