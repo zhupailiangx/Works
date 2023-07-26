@@ -121,10 +121,7 @@ CV_64F - 64位浮点数（-DBL_MAX…DBL_MAX，INF，NAN）
  </tr>
  <![if supportMisalignedColumns]>
  <tr height=0 style='display:none'>
-  <td width=812 style='width:609pt'></td>
-  <td width=138 style='width:104pt'></td>
-  <td width=232 style='width:174pt'></td>
-  <td width=106 style='width:80pt'></td>
+ 
  </tr>
  <![endif]>
 </table>
