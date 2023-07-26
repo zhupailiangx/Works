@@ -167,24 +167,19 @@ Example
 ./opencv_perf_imgproc   --gtest_param_filter=*640x480*?*8UC1*
 ```
 
-<table border=0 cellpadding=0 cellspacing=0 width=730 style='border-collapse:
- collapse;table-layout:fixed;width:548pt'>
+<table border=0 cellpadding=0 cellspacing=0 width=474 style='border-collapse:
+ collapse;table-layout:fixed;width:356pt'>
  <col width=108 style='mso-width-source:userset;mso-width-alt:3949;width:81pt'>
  <col width=64 style='width:48pt'>
  <col width=96 span=2 style='mso-width-source:userset;mso-width-alt:3510;
  width:72pt'>
  <col width=110 style='mso-width-source:userset;mso-width-alt:4022;width:83pt'>
- <col width=64 span=4 style='width:48pt'>
  <tr height=20 style='height:15.0pt'>
   <td height=20 class=xl65 width=108 style='height:15.0pt;width:81pt'>&nbsp;</td>
   <td class=xl65 width=64 style='border-left:none;width:48pt'>Core</td>
   <td class=xl65 width=96 style='border-left:none;width:72pt'>Filtered Core</td>
   <td class=xl65 width=96 style='border-left:none;width:72pt'>ImgProc</td>
   <td class=xl65 width=110 style='border-left:none;width:83pt'>Filtered imgProc</td>
-  <td width=64 style='width:48pt'></td>
-  <td width=64 style='width:48pt'></td>
-  <td width=64 style='width:48pt'></td>
-  <td width=64 style='width:48pt'></td>
  </tr>
  <tr height=20 style='height:15.0pt'>
   <td height=20 class=xl65 style='height:15.0pt;border-top:none'>Number of
@@ -193,7 +188,6 @@ Example
   <td class=xl65 style='border-top:none;border-left:none'>76</td>
   <td class=xl65 style='border-top:none;border-left:none'>146</td>
   <td class=xl65 style='border-top:none;border-left:none'>67</td>
-  <td colspan=4 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=20 style='height:15.0pt'>
   <td height=20 class=xl65 style='height:15.0pt;border-top:none'>Number of
@@ -202,15 +196,15 @@ Example
   <td class=xl65 style='border-top:none;border-left:none'>209</td>
   <td class=xl65 style='border-top:none;border-left:none'>5384</td>
   <td class=xl65 style='border-top:none;border-left:none'>149</td>
-  <td colspan=4 style='mso-ignore:colspan'></td>
  </tr>
- <tr height=100 style='height:75.0pt;mso-xlrowspan:5'>
-  <td height=100 colspan=9 style='height:75.0pt;mso-ignore:colspan'></td>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=108 style='width:81pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=96 style='width:72pt'></td>
+  <td width=96 style='width:72pt'></td>
+  <td width=110 style='width:83pt'></td>
  </tr>
- <tr height=20 style='height:15.0pt'>
-  <td height=20 colspan=8 style='height:15.0pt;mso-ignore:colspan'></td>
-  <td class=xl70></td>
-
-
+ <![endif]>
 </table>
 
