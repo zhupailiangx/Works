@@ -85,7 +85,7 @@ CV_64F - 64位浮点数
  <col width=106 style='mso-width-source:userset;mso-width-alt:3876;width:80pt'>
  <tr height=20 style='height:15.0pt'>
   <td colspan=6 height=20 class=xl67 width=1876 align="center" style='height:15.0pt;
-  width:1408pt'>&#27979;&#35797;&#32467;&#26524;&#32452;&#25104;</td>
+  width:1408pt'>&#27979;&#35797;&#32467;&#26524;&#25193;&#23637;</td>
  </tr>
  <tr height=20 style='height:15.0pt'>
   <td height=20 class=xl65 style='height:15.0pt;border-top:none'>Case</td>
