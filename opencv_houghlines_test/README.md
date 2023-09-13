@@ -43,7 +43,8 @@
 
 </body>
 
-
+1. Windows 在cvRound 函数中使用了SIMD 所以比Linux快。
+2.  Linux 上该算子的负载较低，P 核和E 核上该算子的性能相近，可以看到加入了计时代码，性能就有了差距。
 
 ## Windows E core
 ![image](https://github.com/zhupailiangx/Works/assets/120553507/27507c6b-a4bc-4ab2-8211-3d8ecf2f8a38)
