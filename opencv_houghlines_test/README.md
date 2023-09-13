@@ -46,6 +46,9 @@
 ### Add Timestamp
 
 ‪opencv-4.8.0\modules\imgproc\src\hough.cpp
+
+
+### 总结
 1. Windows 在cvRound 函数中使用了SIMD 所以比Linux快。
 2.  Linux 上该算子的负载较低，P 核和E 核上该算子的性能相近，可以看到加入了计时代码，性能就有了差距。
 
