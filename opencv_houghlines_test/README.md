@@ -1,5 +1,5 @@
 
-## 测试结果
+## Houghlines测试结果
 
 <table border=0 cellpadding=0 cellspacing=0 width=507 style='border-collapse:
  collapse;table-layout:fixed;width:380pt'>
