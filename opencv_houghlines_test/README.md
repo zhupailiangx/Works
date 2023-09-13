@@ -14,7 +14,7 @@
   border-left:none;width:96pt'>Windows</td>
  </tr>
  <tr height=20 style='height:15.0pt'>
-  <td height=20 class=xl65 style='height:15.0pt;border-top:none'>P</td>
+  <td height=20 class=xl65 align=center style='height:15.0pt;border-top:none'>P</td>
   <td class=xl65 style='border-top:none;border-left:none'>E</td>
   <td class=xl65 style='border-top:none;border-left:none'>P</td>
   <td class=xl65 style='border-top:none;border-left:none'>E</td>
@@ -22,7 +22,7 @@
   <td class=xl65 style='border-top:none;border-left:none'>E</td>
  </tr>
  <tr height=20 style='height:15.0pt'>
-  <td height=20 class=xl65 style='height:15.0pt;border-top:none'>0.45 ms</td>
+  <td height=20 class=xl65 align=center style='height:15.0pt;border-top:none'>0.45 ms</td>
   <td class=xl65 style='border-top:none;border-left:none'>0.44 ms</td>
   <td class=xl65 style='border-top:none;border-left:none'>3.12ms</td>
   <td class=xl65 style='border-top:none;border-left:none'>5.05ms</td>
