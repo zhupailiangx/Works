@@ -46,7 +46,29 @@
 ### Add Timestamp
 
 ‪opencv-4.8.0\modules\imgproc\src\hough.cpp
+```
+for( i = 0; i < height; i++ )
+        for( j = 0; j < width; j++ )
+        {
+            if( image[i * step + j] != 0 )
+                for(int n = 0; n < numangle; n++ )
+                {
+                    
+                    int r = cvRound( j * tabCos[n] + i * tabSin[n] );
+                    
+                    r += (numrho - 1) / 2;
 
+                    auto start6 = std::chrono::high_resolution_clock::now();//add
+
+                    accum[(n+1) * (numrho+2) + r+1]++;
+
+                    auto end6 = std::chrono::high_resolution_clock::now();//add
+                    std::chrono::duration<double, std::milli> tm6 = end6 - start6; //add
+                    tt += tm6.count(); //add
+                }
+        }
+
+```
 
 ### 总结
 1. Windows 在cvRound 函数中使用了SIMD 所以比Linux快。
