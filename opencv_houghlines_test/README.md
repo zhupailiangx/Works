@@ -8,9 +8,9 @@
  <col width=64 span=3 style='width:48pt'>
  <tr height=20 style='height:15.0pt'>
   <td colspan=2 height=20 class=xl65 width=128 align=center style='height:15.0pt;width:96pt'>Linux</td>
-  <td colspan=2 class=xl65 width=251 style='border-left:none;width:188pt'>Linux
+  <td colspan=2 class=xl65 width=251 align=center style='border-left:none;width:188pt'>Linux
   (add Timestamp)</td>
-  <td colspan=2 class=xl66 width=128 style='border-right:.5pt solid black;
+  <td colspan=2 class=xl66 align=center width=128 style='border-right:.5pt solid black;
   border-left:none;width:96pt'>Windows</td>
  </tr>
  <tr height=20 style='height:15.0pt'>
