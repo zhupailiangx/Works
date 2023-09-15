@@ -69,7 +69,26 @@ for( i = 0; i < height; i++ )
         }
 
 ```
+## warpaffine
+‪opencv-4.8.0\modules\imgproc\src\imgwarp.cpp 1200行加时间戳增加负载
+```
+  #if CV_SIMD128
+                        {
+                            v_uint16x8 v_scale = v_setall_u16(INTER_TAB_SIZE2 - 1);
+                            int span = v_uint16x8::nlanes;
+                            for (; x1 <= bcols - span; x1 += span) {
+                                auto start0 = std::chrono::high_resolution_clock::now();//add
+                                v_store((unsigned short*)(A + x1), v_load(sA + x1) & v_scale);
+                                auto end0 = std::chrono::high_resolution_clock::now();//add
+                                std::chrono::duration<double, std::nano> tm123 = end0 - start0;//add
+                                t_remap += tm123.count();//add
 
+                                //count_remapinvoker += 1;
+                                //std::cout << "count_remapinvoker :" << count_remapinvoker << std::endl;
+                            }
+                        }
+                        #endif
+```
 ### 总结
 1. Windows 在cvRound 函数中使用了SIMD 所以比Linux快。
 2.  Linux 上该算子的负载较低，P 核和E 核上该算子的性能相近，可以看到加入了计时代码，性能就有了差距。
