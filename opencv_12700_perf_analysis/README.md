@@ -44,6 +44,64 @@
 </body>
 
 ### Add Timestamp
+<table border=0 cellpadding=0 cellspacing=0 width=723 style='border-collapse:
+ collapse;table-layout:fixed;width:543pt'>
+ <col width=64 style='width:48pt'>
+ <col width=83 style='mso-width-source:userset;mso-width-alt:3035;width:62pt'>
+ <col width=64 style='width:48pt'>
+ <col width=98 style='mso-width-source:userset;mso-width-alt:3584;width:74pt'>
+ <col width=222 style='mso-width-source:userset;mso-width-alt:8118;width:167pt'>
+ <col width=64 span=3 style='width:48pt'>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 colspan=4 width=309 style='height:15.0pt;mso-ignore:colspan;
+  width:232pt'>(1920x1080, 32FC3, INTER_LINEAR)</td>
+  <td width=222 style='width:167pt'>(3840x2160, 32FC3, INTER_LINEAR)</td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td colspan=2 height=20 class=xl66 style='height:15.0pt'>Linux</td>
+  <td colspan=2 class=xl66 style='border-left:none'>Linux (add Timestamp)</td>
+  <td colspan=2 class=xl66 style='border-left:none'>Linux</td>
+  <td colspan=2 class=xl66 style='border-left:none'>Linux (add Timestamp)</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl66 style='height:15.0pt;border-top:none'>P</td>
+  <td class=xl66 style='border-top:none;border-left:none'>E</td>
+  <td class=xl66 style='border-top:none;border-left:none'>P</td>
+  <td class=xl66 style='border-top:none;border-left:none'>E</td>
+  <td class=xl66 style='border-top:none;border-left:none'>P</td>
+  <td class=xl66 style='border-top:none;border-left:none'>E</td>
+  <td class=xl66 style='border-top:none;border-left:none'>P</td>
+  <td class=xl66 style='border-top:none;border-left:none'>E</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl66 style='height:15.0pt;border-top:none'>&nbsp;</td>
+  <td class=xl66 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl66 style='border-top:none;border-left:none'>27</td>
+  <td class=xl66 style='border-top:none;border-left:none'>31</td>
+  <td class=xl66 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl66 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl66 style='border-top:none;border-left:none'>118</td>
+  <td class=xl66 style='border-top:none;border-left:none'>128</td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=64 style='width:48pt'></td>
+  <td width=83 style='width:62pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=98 style='width:74pt'></td>
+  <td width=222 style='width:167pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+</body>
+
 
 ‪opencv-4.8.0\modules\imgproc\src\hough.cpp 187行for 循环加入时间戳
 ```
@@ -70,6 +128,65 @@ for( i = 0; i < height; i++ )
 
 ```
 ## warpaffine
+<table border=0 cellpadding=0 cellspacing=0 width=723 style='border-collapse:
+ collapse;table-layout:fixed;width:543pt'>
+ <col width=64 style='width:48pt'>
+ <col width=83 style='mso-width-source:userset;mso-width-alt:3035;width:62pt'>
+ <col width=64 style='width:48pt'>
+ <col width=98 style='mso-width-source:userset;mso-width-alt:3584;width:74pt'>
+ <col width=222 style='mso-width-source:userset;mso-width-alt:8118;width:167pt'>
+ <col width=64 span=3 style='width:48pt'>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 colspan=4 width=309 style='height:15.0pt;mso-ignore:colspan;
+  width:232pt'>(1920x1080, 32FC3, INTER_LINEAR)</td>
+  <td width=222 style='width:167pt'>(3840x2160, 32FC3, INTER_LINEAR)</td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td colspan=2 height=20 class=xl66 style='height:15.0pt'>Linux</td>
+  <td colspan=2 class=xl66 style='border-left:none'>Linux (add Timestamp)</td>
+  <td colspan=2 class=xl66 style='border-left:none'>Linux</td>
+  <td colspan=2 class=xl66 style='border-left:none'>Linux (add Timestamp)</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl66 style='height:15.0pt;border-top:none'>P</td>
+  <td class=xl66 style='border-top:none;border-left:none'>E</td>
+  <td class=xl66 style='border-top:none;border-left:none'>P</td>
+  <td class=xl66 style='border-top:none;border-left:none'>E</td>
+  <td class=xl66 style='border-top:none;border-left:none'>P</td>
+  <td class=xl66 style='border-top:none;border-left:none'>E</td>
+  <td class=xl66 style='border-top:none;border-left:none'>P</td>
+  <td class=xl66 style='border-top:none;border-left:none'>E</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl66 style='height:15.0pt;border-top:none'>&nbsp;</td>
+  <td class=xl66 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl66 style='border-top:none;border-left:none'>27</td>
+  <td class=xl66 style='border-top:none;border-left:none'>31</td>
+  <td class=xl66 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl66 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl66 style='border-top:none;border-left:none'>118</td>
+  <td class=xl66 style='border-top:none;border-left:none'>128</td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=64 style='width:48pt'></td>
+  <td width=83 style='width:62pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=98 style='width:74pt'></td>
+  <td width=222 style='width:167pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+</body>
+
+### 时间戳
 ‪opencv-4.8.0\modules\imgproc\src\imgwarp.cpp 1200行加时间戳增加负载
 ```
   #if CV_SIMD128
