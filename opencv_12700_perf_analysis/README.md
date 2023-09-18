@@ -3,106 +3,43 @@
 ## Houghlines ()
 ### Houghlines测试结果
 
-<table border=0 cellpadding=0 cellspacing=0 width=507 style='border-collapse:
- collapse;table-layout:fixed;width:380pt'>
- <col width=64 span=2 style='width:48pt'>
- <col width=187 style='mso-width-source:userset;mso-width-alt:6838;width:140pt'>
- <col width=64 span=3 style='width:48pt'>
+<body link="#0563C1" vlink="#954F72">
+
+<table border=0 cellpadding=0 cellspacing=0 width=283 style='border-collapse:
+ collapse;table-layout:fixed;width:213pt'>
+ <col width=64 style='width:48pt'>
+ <col width=53 style='mso-width-source:userset;mso-width-alt:1938;width:40pt'>
+ <col width=64 style='width:48pt'>
+ <col width=102 style='mso-width-source:userset;mso-width-alt:3730;width:77pt'>
  <tr height=20 style='height:15.0pt'>
-  <td colspan=2 height=20 class=xl65 width=128 align=center style='height:15.0pt;width:96pt'>Linux</td>
-  <td colspan=2 class=xl65 width=251 align=center style='border-left:none;width:188pt'>Linux
+  <td colspan=2 height=20 class=xl65 width=117 style='height:15.0pt;width:88pt'>Linux</td>
+  <td colspan=2 class=xl65 width=166 style='border-left:none;width:125pt'>Linux
   (add Timestamp)</td>
-  <td colspan=2 class=xl66 align=center width=128 style='border-right:.5pt solid black;
-  border-left:none;width:96pt'>Windows</td>
  </tr>
  <tr height=20 style='height:15.0pt'>
-  <td height=20 class=xl65 align=center style='height:15.0pt;border-top:none'>P</td>
-  <td class=xl65 style='border-top:none;border-left:none'>E</td>
-  <td class=xl65 style='border-top:none;border-left:none'>P</td>
+  <td height=20 class=xl65 style='height:15.0pt;border-top:none'>P</td>
   <td class=xl65 style='border-top:none;border-left:none'>E</td>
   <td class=xl65 style='border-top:none;border-left:none'>P</td>
   <td class=xl65 style='border-top:none;border-left:none'>E</td>
  </tr>
  <tr height=20 style='height:15.0pt'>
-  <td height=20 class=xl65 align=center style='height:15.0pt;border-top:none'>0.45 ms</td>
+  <td height=20 class=xl65 style='height:15.0pt;border-top:none'>0.45 ms</td>
   <td class=xl65 style='border-top:none;border-left:none'>0.44 ms</td>
   <td class=xl65 style='border-top:none;border-left:none'>3.12ms</td>
   <td class=xl65 style='border-top:none;border-left:none'>5.05ms</td>
-  <td class=xl65 style='border-top:none;border-left:none'>0.22ms</td>
-  <td class=xl65 style='border-top:none;border-left:none'>0.37ms</td>
  </tr>
  <![if supportMisalignedColumns]>
  <tr height=0 style='display:none'>
   <td width=64 style='width:48pt'></td>
+  <td width=53 style='width:40pt'></td>
   <td width=64 style='width:48pt'></td>
-  <td width=187 style='width:140pt'></td>
-  <td width=64 style='width:48pt'></td>
-  <td width=64 style='width:48pt'></td>
-  <td width=64 style='width:48pt'></td>
+  <td width=102 style='width:77pt'></td>
  </tr>
  <![endif]>
 </table>
 
 </body>
-
 ### Add Timestamp
-<table border=0 cellpadding=0 cellspacing=0 width=723 style='border-collapse:
- collapse;table-layout:fixed;width:543pt'>
- <col width=64 style='width:48pt'>
- <col width=83 style='mso-width-source:userset;mso-width-alt:3035;width:62pt'>
- <col width=64 style='width:48pt'>
- <col width=98 style='mso-width-source:userset;mso-width-alt:3584;width:74pt'>
- <col width=222 style='mso-width-source:userset;mso-width-alt:8118;width:167pt'>
- <col width=64 span=3 style='width:48pt'>
- <tr height=20 style='height:15.0pt'>
-  <td height=20 colspan=4 width=309 style='height:15.0pt;mso-ignore:colspan;
-  width:232pt'>(1920x1080, 32FC3, INTER_LINEAR)</td>
-  <td width=222 style='width:167pt'>(3840x2160, 32FC3, INTER_LINEAR)</td>
-  <td width=64 style='width:48pt'></td>
-  <td width=64 style='width:48pt'></td>
-  <td width=64 style='width:48pt'></td>
- </tr>
- <tr height=20 style='height:15.0pt'>
-  <td colspan=2 height=20 class=xl66 style='height:15.0pt'>Linux</td>
-  <td colspan=2 class=xl66 style='border-left:none'>Linux (add Timestamp)</td>
-  <td colspan=2 class=xl66 style='border-left:none'>Linux</td>
-  <td colspan=2 class=xl66 style='border-left:none'>Linux (add Timestamp)</td>
- </tr>
- <tr height=20 style='height:15.0pt'>
-  <td height=20 class=xl66 style='height:15.0pt;border-top:none'>P</td>
-  <td class=xl66 style='border-top:none;border-left:none'>E</td>
-  <td class=xl66 style='border-top:none;border-left:none'>P</td>
-  <td class=xl66 style='border-top:none;border-left:none'>E</td>
-  <td class=xl66 style='border-top:none;border-left:none'>P</td>
-  <td class=xl66 style='border-top:none;border-left:none'>E</td>
-  <td class=xl66 style='border-top:none;border-left:none'>P</td>
-  <td class=xl66 style='border-top:none;border-left:none'>E</td>
- </tr>
- <tr height=20 style='height:15.0pt'>
-  <td height=20 class=xl66 style='height:15.0pt;border-top:none'>&nbsp;</td>
-  <td class=xl66 style='border-top:none;border-left:none'>&nbsp;</td>
-  <td class=xl66 style='border-top:none;border-left:none'>27</td>
-  <td class=xl66 style='border-top:none;border-left:none'>31</td>
-  <td class=xl66 style='border-top:none;border-left:none'>&nbsp;</td>
-  <td class=xl66 style='border-top:none;border-left:none'>&nbsp;</td>
-  <td class=xl66 style='border-top:none;border-left:none'>118</td>
-  <td class=xl66 style='border-top:none;border-left:none'>128</td>
- </tr>
- <![if supportMisalignedColumns]>
- <tr height=0 style='display:none'>
-  <td width=64 style='width:48pt'></td>
-  <td width=83 style='width:62pt'></td>
-  <td width=64 style='width:48pt'></td>
-  <td width=98 style='width:74pt'></td>
-  <td width=222 style='width:167pt'></td>
-  <td width=64 style='width:48pt'></td>
-  <td width=64 style='width:48pt'></td>
-  <td width=64 style='width:48pt'></td>
- </tr>
- <![endif]>
-</table>
-
-</body>
 
 
 ‪opencv-4.8.0\modules\imgproc\src\hough.cpp 187行for 循环加入时间戳
@@ -129,65 +66,68 @@ for( i = 0; i < height; i++ )
         }
 
 ```
-## warpaffine
-<table border=0 cellpadding=0 cellspacing=0 width=723 style='border-collapse:
- collapse;table-layout:fixed;width:543pt'>
- <col width=64 style='width:48pt'>
- <col width=83 style='mso-width-source:userset;mso-width-alt:3035;width:62pt'>
- <col width=64 style='width:48pt'>
- <col width=98 style='mso-width-source:userset;mso-width-alt:3584;width:74pt'>
- <col width=222 style='mso-width-source:userset;mso-width-alt:8118;width:167pt'>
+## Warpaffine
+<body link="#0563C1" vlink="#954F72">
+<span style='font-variant-ligatures: normal;font-variant-caps: normal;
+orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial'>
+
+<table border=0 cellpadding=0 cellspacing=0 width=845 style='border-collapse:
+ collapse;table-layout:fixed;width:634pt'>
  <col width=64 span=3 style='width:48pt'>
- <tr height=20 style='height:15.0pt'>
-  <td height=20 colspan=4 width=309 style='height:15.0pt;mso-ignore:colspan;
-  width:232pt'>(1920x1080, 32FC3, INTER_LINEAR)</td>
-  <td width=222 style='width:167pt'>(3840x2160, 32FC3, INTER_LINEAR)</td>
-  <td width=64 style='width:48pt'></td>
-  <td width=64 style='width:48pt'></td>
-  <td width=64 style='width:48pt'></td>
+ <col width=164 style='mso-width-source:userset;mso-width-alt:5997;width:123pt'>
+ <col width=264 style='mso-width-source:userset;mso-width-alt:9654;width:198pt'>
+ <col width=53 style='mso-width-source:userset;mso-width-alt:1938;width:40pt'>
+ <col width=64 style='width:48pt'>
+ <col width=108 style='mso-width-source:userset;mso-width-alt:3949;width:81pt'>
+ <tr height=23 style='height:17.25pt'>
+  <td colspan=4 height=23 class=xl68 width=356 style='height:17.25pt;
+  width:267pt'>(1920x1080, 32FC3, INTER_LINEAR)</span></td>
+  <td colspan=4 class=xl68 width=489 style='border-left:none;width:367pt'><span
+  style='font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
+  text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
+  text-decoration-style: initial;text-decoration-color: initial'>(3840x2160,
+  32FC3, INTER_LINEAR)</span></td>
  </tr>
  <tr height=20 style='height:15.0pt'>
-  <td colspan=2 height=20 class=xl66 style='height:15.0pt'>Linux</td>
-  <td colspan=2 class=xl66 style='border-left:none'>Linux (add Timestamp)</td>
-  <td colspan=2 class=xl66 style='border-left:none'>Linux</td>
-  <td colspan=2 class=xl66 style='border-left:none'>Linux (add Timestamp)</td>
+  <td colspan=2 height=20 class=xl65 style='height:15.0pt'>Linux</td>
+  <td colspan=2 class=xl65 style='border-left:none'>Linux (add Timestamp)</td>
+  <td colspan=2 class=xl65 style='border-left:none'>Linux</td>
+  <td colspan=2 class=xl65 style='border-left:none'>Linux (add Timestamp)</td>
  </tr>
  <tr height=20 style='height:15.0pt'>
-  <td height=20 class=xl66 style='height:15.0pt;border-top:none'>P</td>
-  <td class=xl66 style='border-top:none;border-left:none'>E</td>
-  <td class=xl66 style='border-top:none;border-left:none'>P</td>
-  <td class=xl66 style='border-top:none;border-left:none'>E</td>
-  <td class=xl66 style='border-top:none;border-left:none'>P</td>
-  <td class=xl66 style='border-top:none;border-left:none'>E</td>
-  <td class=xl66 style='border-top:none;border-left:none'>P</td>
-  <td class=xl66 style='border-top:none;border-left:none'>E</td>
+  <td height=20 class=xl65 style='height:15.0pt;border-top:none'>P</td>
+  <td class=xl65 style='border-top:none;border-left:none'>E</td>
+  <td class=xl65 style='border-top:none;border-left:none'>P</td>
+  <td class=xl65 style='border-top:none;border-left:none'>E</td>
+  <td class=xl65 style='border-top:none;border-left:none'>P</td>
+  <td class=xl65 style='border-top:none;border-left:none'>E</td>
+  <td class=xl65 style='border-top:none;border-left:none'>P</td>
+  <td class=xl65 style='border-top:none;border-left:none'>E</td>
  </tr>
  <tr height=20 style='height:15.0pt'>
-  <td height=20 class=xl66 style='height:15.0pt;border-top:none'>&nbsp;</td>
-  <td class=xl66 style='border-top:none;border-left:none'>&nbsp;</td>
-  <td class=xl66 style='border-top:none;border-left:none'>27</td>
-  <td class=xl66 style='border-top:none;border-left:none'>31</td>
-  <td class=xl66 style='border-top:none;border-left:none'>&nbsp;</td>
-  <td class=xl66 style='border-top:none;border-left:none'>&nbsp;</td>
-  <td class=xl66 style='border-top:none;border-left:none'>118</td>
-  <td class=xl66 style='border-top:none;border-left:none'>128</td>
+  <td height=20 class=xl65 style='height:15.0pt;border-top:none'>20.18ms</td>
+  <td class=xl65 style='border-top:none;border-left:none'>20.06ms</td>
+  <td class=xl65 style='border-top:none;border-left:none'>27ms</td>
+  <td class=xl65 style='border-top:none;border-left:none'>31ms</td>
+  <td class=xl65 style='border-top:none;border-left:none'>90ms</td>
+  <td class=xl65 style='border-top:none;border-left:none'>83ms</td>
+  <td class=xl65 style='border-top:none;border-left:none'>118ms</td>
+  <td class=xl65 style='border-top:none;border-left:none'>128ms</td>
  </tr>
  <![if supportMisalignedColumns]>
  <tr height=0 style='display:none'>
   <td width=64 style='width:48pt'></td>
-  <td width=83 style='width:62pt'></td>
-  <td width=64 style='width:48pt'></td>
-  <td width=98 style='width:74pt'></td>
-  <td width=222 style='width:167pt'></td>
   <td width=64 style='width:48pt'></td>
   <td width=64 style='width:48pt'></td>
+  <td width=164 style='width:123pt'></td>
+  <td width=264 style='width:198pt'></td>
+  <td width=53 style='width:40pt'></td>
   <td width=64 style='width:48pt'></td>
+  <td width=108 style='width:81pt'></td>
  </tr>
  <![endif]>
 </table>
-
-</body>
-
 ### 时间戳
 ‪opencv-4.8.0\modules\imgproc\src\imgwarp.cpp 1200行加时间戳增加负载
 ```
@@ -208,13 +148,9 @@ for( i = 0; i < height; i++ )
                         }
                         #endif
 ```
-### 总结
+## 总结
 1. Windows 在cvRound 函数中使用了SIMD 所以比Linux快。
 2.  Linux 上该算子的负载较低，P 核和E 核上该算子的性能相近，可以看到加入了计时代码，性能就有了差距。
 
-## Windows E core
-![image](https://github.com/zhupailiangx/Works/assets/120553507/27507c6b-a4bc-4ab2-8211-3d8ecf2f8a38)
 
-## Windows P core
-![image](https://github.com/zhupailiangx/Works/assets/120553507/206bb5b0-16bc-4eb9-a31c-0311c9bce32c)
 
