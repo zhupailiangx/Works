@@ -39,10 +39,8 @@
 </table>
 
 </body>
-### Add Timestamp
-
-
-‪opencv-4.8.0\modules\imgproc\src\hough.cpp 187行for 循环加入时间戳
+### 增加负载
+通过在‪opencv-4.8.0\modules\imgproc\src\hough.cpp 187行for 循环加入时间戳增加负载，见下面**add** 注释
 ```
 for( i = 0; i < height; i++ )
         for( j = 0; j < width; j++ )
@@ -130,8 +128,8 @@ text-decoration-thickness: initial;text-decoration-style: initial;text-decoratio
 </table>
 </body>
 
-### 时间戳
-‪opencv-4.8.0\modules\imgproc\src\imgwarp.cpp 1200行加时间戳增加负载
+### 增加负载
+通过在‪opencv-4.8.0\modules\imgproc\src\imgwarp.cpp 1200行加时间戳增加负载，见下面**add** 注释
 ```
   #if CV_SIMD128
                         {
@@ -151,8 +149,7 @@ text-decoration-thickness: initial;text-decoration-style: initial;text-decoratio
                         #endif
 ```
 ## 总结
-1. Windows 在cvRound 函数中使用了SIMD 所以比Linux快。
-2.  Linux 上该算子的负载较低，P 核和E 核上该算子的性能相近，可以看到加入了计时代码，性能就有了差距。
+12700 Linux 上算子的负载较低，P核不能发挥出比E核性能好的优势
 
 
 
