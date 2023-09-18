@@ -152,7 +152,7 @@ text-decoration-thickness: initial;text-decoration-style: initial;text-decoratio
                         #endif
 ```
 ## 总结
-12700 Linux 上算子的负载较低，P核不能发挥出比E核性能好的优势
+12700 Linux 上算子的负载较低，P核速度没有E 核的性能好，增加负载，可以发挥出P核的性能优势。
 
 
 
