@@ -16,13 +16,13 @@
   <td colspan=2 class=xl65 align=center width=166 style='border-left:none;width:125pt'>Linux
   (add Timestamp)</td>
  </tr>
- <tr height=20 style='height:15.0pt'>
+ <tr height=20 align=center style='height:15.0pt'>
   <td height=20 class=xl65 style='height:15.0pt;border-top:none'>P</td>
   <td class=xl65 style='border-top:none;border-left:none'>E</td>
   <td class=xl65 style='border-top:none;border-left:none'>P</td>
   <td class=xl65 style='border-top:none;border-left:none'>E</td>
  </tr>
- <tr height=20 style='height:15.0pt'>
+ <tr height=20 align=center style='height:15.0pt'>
   <td height=20 class=xl65 style='height:15.0pt;border-top:none'>0.45 ms</td>
   <td class=xl65 style='border-top:none;border-left:none'>0.44 ms</td>
   <td class=xl65 style='border-top:none;border-left:none'>3.12ms</td>
@@ -96,7 +96,7 @@ text-decoration-thickness: initial;text-decoration-style: initial;text-decoratio
   <td colspan=2 class=xl65 style='border-left:none'>Linux</td>
   <td colspan=2 class=xl65 style='border-left:none'>Linux (add Timestamp)</td>
  </tr>
- <tr height=20 style='height:15.0pt'>
+ <tr height=20 align=center style='height:15.0pt'>
   <td height=20 class=xl65 style='height:15.0pt;border-top:none'>P</td>
   <td class=xl65 style='border-top:none;border-left:none'>E</td>
   <td class=xl65 style='border-top:none;border-left:none'>P</td>
@@ -106,7 +106,7 @@ text-decoration-thickness: initial;text-decoration-style: initial;text-decoratio
   <td class=xl65 style='border-top:none;border-left:none'>P</td>
   <td class=xl65 style='border-top:none;border-left:none'>E</td>
  </tr>
- <tr height=20 style='height:15.0pt'>
+ <tr height=20 align=center style='height:15.0pt'>
   <td height=20 class=xl65 style='height:15.0pt;border-top:none'>20.18ms</td>
   <td class=xl65 style='border-top:none;border-left:none'>20.06ms</td>
   <td class=xl65 style='border-top:none;border-left:none'>27ms</td>
