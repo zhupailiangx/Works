@@ -12,8 +12,8 @@
  <col width=64 style='width:48pt'>
  <col width=102 style='mso-width-source:userset;mso-width-alt:3730;width:77pt'>
  <tr height=20 style='height:15.0pt'>
-  <td colspan=2 height=20 class=xl65 width=117 style='height:15.0pt;width:88pt'>Linux</td>
-  <td colspan=2 class=xl65 width=166 style='border-left:none;width:125pt'>Linux
+  <td colspan=2 height=20 class=xl65 align=center width=117 style='height:15.0pt;width:88pt'>Linux</td>
+  <td colspan=2 class=xl65 align=center width=166 style='border-left:none;width:125pt'>Linux
   (add Timestamp)</td>
  </tr>
  <tr height=20 style='height:15.0pt'>
@@ -82,9 +82,9 @@ text-decoration-thickness: initial;text-decoration-style: initial;text-decoratio
  <col width=64 style='width:48pt'>
  <col width=108 style='mso-width-source:userset;mso-width-alt:3949;width:81pt'>
  <tr height=23 style='height:17.25pt'>
-  <td colspan=4 height=23 class=xl68 width=356 style='height:17.25pt;
+  <td colspan=4 height=23 align=center class=xl68 width=356 style='height:17.25pt;
   width:267pt'>(1920x1080, 32FC3, INTER_LINEAR)</span></td>
-  <td colspan=4 class=xl68 width=489 style='border-left:none;width:367pt'><span
+  <td colspan=4 class=xl68 width=489 align=centerstyle='border-left:none;width:367pt'><span
   style='font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
   text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
   text-decoration-style: initial;text-decoration-color: initial'>(3840x2160,
