@@ -1,5 +1,5 @@
 # 12700 Linux E core and P core 
-分析OpenCV perf 测试在12700 linux 上 Houghlines 和 Warpaffine 相关算子E 核速度比P 核速度快的原因
+分析OpenCV perf 测试在12700 linux 上 Houghlines 和 Warpaffine 相关算子E 核速度比P 核速度快的原因,存在异常的算子包括Houghlines (640x480, 1, 0.1)， Warpaffine (1920x1080, 32FC3, INTER_LINEAR) 和 Warpaffine (3840x2160, 32FC3, INTER_LINEAR)
 ## Houghlines ()
 ### Houghlines (640x480, 1, 0.1)测试结果
 
