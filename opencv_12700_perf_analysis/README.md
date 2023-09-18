@@ -1,7 +1,7 @@
 # 12700 Linux E core and P core 
 分析OpenCV perf 测试在12700 linux 上 Houghlines 和 Warpaffine 相关算子E 核速度比P 核速度快的原因
 ## Houghlines ()
-### Houghlines测试结果
+### Houghlines (640x480, 1, 0.1)测试结果
 
 <body link="#0563C1" vlink="#954F72">
 
