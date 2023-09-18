@@ -90,7 +90,7 @@ text-decoration-thickness: initial;text-decoration-style: initial;text-decoratio
   text-decoration-style: initial;text-decoration-color: initial'>(3840x2160,
   32FC3, INTER_LINEAR)</span></td>
  </tr>
- <tr height=20 style='height:15.0pt'>
+ <tr height=20 align=center style='height:15.0pt'>
   <td colspan=2 height=20 class=xl65 style='height:15.0pt'>Linux</td>
   <td colspan=2 class=xl65 style='border-left:none'>Linux (add Timestamp)</td>
   <td colspan=2 class=xl65 style='border-left:none'>Linux</td>
