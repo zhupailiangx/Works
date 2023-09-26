@@ -33,6 +33,7 @@
 
 </body>
 
+注: 11th Gen Intel(R) Core(TM) i7-1185G7 
 ## Windows
 ```
 conda create -n openvino_env python==3.8
