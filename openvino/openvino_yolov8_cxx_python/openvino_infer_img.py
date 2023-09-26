@@ -81,12 +81,12 @@ for i in range(100):
     end = time.time()
     # show FPS
     fps = (1 / (end - start))
-    print("fps:",fps)
+    #print("fps:",fps)
     tota_fps += fps
-    fps_label = "Throughput: %.2f FPS" % fps
+    fps_label = "FPS: %.2f" % fps
     cv2.putText(original_image, fps_label, (10, 25), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
 
-    cv2.imshow('YOLOv8 OpenVINO Infer Demo on AIxBoard', original_image)
+    cv2.imshow('YOLOv8 OpenVINO Inference Python Demo', original_image)
     # wait key for ending
 
     if cv2.waitKey(1) > -1:
@@ -94,7 +94,7 @@ for i in range(100):
         #cap.release()
         cv2.destroyAllWindows()
         #break
-print("FPS:",tota_fps/100)
+print("Mean FPS:",tota_fps/100)
 
 
 
