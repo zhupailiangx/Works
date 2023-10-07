@@ -38,7 +38,7 @@ options:
   --OpenCL OPENCL       OpenCL
   --Memory_Speed MEMORY_SPEED
                         Memory Speed
-  --WW WW               WW
+  --WW WW               Weeks
   --CPU_req CPU_REQ     CPU_req
 ```
 
