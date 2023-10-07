@@ -31,7 +31,7 @@ if __name__ == "__main__":
     parser.add_argument('--OpenCV_install', default="Install", type=str, help='OpenCV install')
     parser.add_argument('--OpenCL', default="disabled", type=str, help='OpenCL')
     parser.add_argument('--Memory_Speed', default="3200MT/s", type=str, help='Memory Speed')
-    parser.add_argument('--WW', default="WW40", type=str, help='WW')
+    parser.add_argument('--WW', default="WW40", type=str, help='Weeks')
     parser.add_argument('--CPU_req', default="2100MHz", type=str, help='CPU_req')
 
 
