@@ -12,7 +12,7 @@ pip install lxml
 sh opencv_test_selected.sh
 ```
 
-### 结果到excel
+### ods结果到excel
 下载 opencv_test_results_to_excel.py 到opencv/build/bin
 
 #### 查看参数
