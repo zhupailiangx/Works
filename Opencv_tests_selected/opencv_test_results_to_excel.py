@@ -9,7 +9,7 @@ def main(args):
         try:
             df = pd.read_html(path_list[0])
         except:
-            print("Error: File not found or failed to read file")
+            print("Error 1: File not found or failed to read file")
         df = pd.DataFrame(df[0])
 
         df['Skew']=args.Skew
@@ -33,7 +33,7 @@ def main(args):
         try:
             df = pd.read_html(path_list[0])
         except:
-            print("Error: File not found or failed to read file")
+            print("Error 2: File not found or failed to read file")
 
         df = pd.DataFrame(df[0])
 
@@ -52,7 +52,7 @@ def main(args):
         try:
             df_2 = pd.read_html(path_list[1])
         except:
-            print("Error: File not found or failed to read file")
+            print("Error 3: File not found or failed to read file")
 
         df_2 = pd.DataFrame(df_2[0])
         #print(df_2)
