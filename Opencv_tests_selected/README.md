@@ -11,6 +11,14 @@ pip install lxml
 ```
 sh opencv_test_selected.sh
 ```
+注： bitwise_not::Size_MatType::(1920x1080, 8UC1) 算子默认最大samples=200,如果需要修改成1000，请将perf_bitwise.cpp 20行
+```
+declare.iterations(200);
+```
+修改成
+```
+declare.iterations(1000);
+```
 
 ### ods结果到excel
 下载 opencv_test_results_to_excel.py 到opencv/build/bin
