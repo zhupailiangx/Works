@@ -77,8 +77,8 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='opencv_tests')
-    parser.add_argument('--input_path',default=r"C:\Users\pailianx\Downloads\opencv-12700-10-07\core_imgproc_selecte.ods", type=str,help ='input ods files')
-    parser.add_argument('--output_path',default = r"C:\Users\pailianx\Downloads\opencv-12700-10-07\core_imgproc_selected2.xlsx", type=str,help='result excel file')
+    parser.add_argument('--input_path',default=r"core_imgproc_selecte.ods", type=str,help ='input ods files')
+    parser.add_argument('--output_path',default = r"core_imgproc_selected2.xlsx", type=str,help='result excel file')
     parser.add_argument('--Skew', default="12700", type=str, help='Machine type')
     parser.add_argument('--File_Name',default="core",type=str, action='store',help='Moudle')
     parser.add_argument('--Memory_type', default="DDR4", type=str, help='Memory type')
