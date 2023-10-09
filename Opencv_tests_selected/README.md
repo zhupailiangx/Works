@@ -51,7 +51,7 @@ options:
 ```
 
 
-#### 修改参数(eg: 12700 core moudle)
+#### 修改参数(eg: 12700 core moudle) 输出到excel
 ```
 python3 opencv_test_results_to_excel.py --input_path core_selected.ods --output_path core_selected.xlsx --Skew 12700 --File_Name core --Memory_type DDR4 --WW WW40 --Memory_Speed 3200MT/s --CPU_req 2100MHz
 ```
