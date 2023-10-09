@@ -1,4 +1,4 @@
-## Linux
+## Linux OpenCV select
 ### 环境准备
 ```
 sudo apt install python3-pip
