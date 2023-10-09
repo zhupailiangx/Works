@@ -7,6 +7,7 @@ pip install openpyxl
 pip install lxml
 ```
 ### opencv 测试编译及结果输出到ods
+下载opencv 源码 https://github.com/opencv/opencv/archive/refs/tags/4.8.0.zip
 下载 opencv_test_selected.sh,放到opencv 目录下
 ```
 sh opencv_test_selected.sh
