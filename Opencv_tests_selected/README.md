@@ -47,7 +47,7 @@ options:
   --Memory_Speed MEMORY_SPEED
                         Memory Speed
   --WW WW               Weeks
-  --CPU_req CPU_REQ     CPU_req
+  --CPU_req CPU_REQ     CPU base frequency
 ```
 
 
