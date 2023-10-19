@@ -1,6 +1,6 @@
 # Add Blob test case in features2d
 
-## Linux
+## Add test case
 ```
 Download https://github.com/opencv/opencv/archive/refs/tags/4.8.0.zip
 cd opencv-4.8.0/modules/features2d/perf
@@ -38,7 +38,7 @@ PERF_TEST_P(Perf_Blob, Blob_detect,testing::Combine(
 }
 ```
 
-## Test
+## Linux Test
 
 ```
 cd opencv-4.8.0
