@@ -24,7 +24,7 @@ PERF_TEST_P(Perf_Blob, Blob_detect,testing::Combine(
     SimpleBlobDetector::Params params;
     params.minThreshold = 250;
     params.maxThreshold = 260;
-    params.minRepeatability = 1;  // https://github.com/opencv/opencv/issues/6667
+    params.minRepeatability = 1;  
     std::vector<KeyPoint> keypoints;
 
     declare.in(image);
