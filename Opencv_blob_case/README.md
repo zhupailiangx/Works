@@ -48,6 +48,6 @@ cmake -DWITH_TBB=OFF -DWITH_OPENMP=OFF -DWITH_PTHREADS_PF=OFF ..
 make opencv_perf_features2d -j8
 cd bin
 export OPENCV_OPENCL_DEVICE=disabled
-./opencv_perf_features2d --gtest_filter=*Blob* 
+./opencv_perf_features2d --gtest_filter=*Blob* --perf_force_samples=1000 --perf_min_samples=1000
 ```
 
