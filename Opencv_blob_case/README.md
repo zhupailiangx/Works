@@ -80,8 +80,8 @@ export OPENCV_OPENCL_DEVICE=disabled
  <tr height=20 align=center style='height:15.0pt'>
   <td height=20 class=xl66 align=center style='height:15.0pt;border-top:none'>Blob_detect::Perf_Blob::(8UC1,
   2000, 1000)</td>
-  <td class=xl66 align=right style='border-top:none;border-left:none'>1000</td>
-  <td class=xl66 align=right style='border-top:none;border-left:none'>80</td>
+  <td class=xl66 align=right align=center style='border-top:none;border-left:none'>1000</td>
+  <td class=xl66 align=right align=center style='border-top:none;border-left:none'>80</td>
   <td class=xl66 style='border-top:none;border-left:none'>0.80 ms</td>
   <td class=xl66 style='border-top:none;border-left:none'>0.82 ms</td>
   <td class=xl66 style='border-top:none;border-left:none'>0.82 ms</td>
