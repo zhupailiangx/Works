@@ -51,3 +51,56 @@ export OPENCV_OPENCL_DEVICE=disabled
 ./opencv_perf_features2d --gtest_filter=*Blob* --perf_force_samples=1000 --perf_min_samples=1000
 ```
 
+## 12700 test results
+
+<table border=0 cellpadding=0 cellspacing=0 width=989 style='border-collapse:
+ collapse;table-layout:fixed;width:743pt'>
+ <col width=277 style='mso-width-source:userset;mso-width-alt:10130;width:208pt'>
+ <col width=189 style='mso-width-source:userset;mso-width-alt:6912;width:142pt'>
+ <col width=124 style='mso-width-source:userset;mso-width-alt:4534;width:93pt'>
+ <col width=53 style='mso-width-source:userset;mso-width-alt:1938;width:40pt'>
+ <col width=55 style='mso-width-source:userset;mso-width-alt:2011;width:41pt'>
+ <col width=112 style='mso-width-source:userset;mso-width-alt:4096;width:84pt'>
+ <col width=53 style='mso-width-source:userset;mso-width-alt:1938;width:40pt'>
+ <col width=126 style='mso-width-source:userset;mso-width-alt:4608;width:95pt'>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl65 width=277 style='height:15.0pt;width:208pt'>Name of
+  Test</td>
+  <td class=xl65 width=189 style='border-left:none;width:142pt'>Number
+  ofcollected samples</td>
+  <td class=xl65 width=124 style='border-left:none;width:93pt'>Number
+  ofoutliers</td>
+  <td class=xl65 width=53 style='border-left:none;width:40pt'>Min</td>
+  <td class=xl65 width=55 style='border-left:none;width:41pt'>Median</td>
+  <td class=xl65 width=112 style='border-left:none;width:84pt'>Geometric mean</td>
+  <td class=xl65 width=53 style='border-left:none;width:40pt'>Mean</td>
+  <td class=xl65 width=126 style='border-left:none;width:95pt'>Standard
+  deviation</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl66 style='height:15.0pt;border-top:none'>Blob_detect::Perf_Blob::(8UC1,
+  2000, 1000)</td>
+  <td class=xl66 align=right style='border-top:none;border-left:none'>1000</td>
+  <td class=xl66 align=right style='border-top:none;border-left:none'>80</td>
+  <td class=xl66 style='border-top:none;border-left:none'>0.80 ms</td>
+  <td class=xl66 style='border-top:none;border-left:none'>0.82 ms</td>
+  <td class=xl66 style='border-top:none;border-left:none'>0.82 ms</td>
+  <td class=xl66 style='border-top:none;border-left:none'>0.82 ms</td>
+  <td class=xl66 style='border-top:none;border-left:none'>0.01 ms</td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=277 style='width:208pt'></td>
+  <td width=189 style='width:142pt'></td>
+  <td width=124 style='width:93pt'></td>
+  <td width=53 style='width:40pt'></td>
+  <td width=55 style='width:41pt'></td>
+  <td width=112 style='width:84pt'></td>
+  <td width=53 style='width:40pt'></td>
+  <td width=126 style='width:95pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+</body>
+
