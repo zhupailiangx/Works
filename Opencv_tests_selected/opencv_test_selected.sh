@@ -4,7 +4,7 @@ if [ ! -d build ]; then
 fi
 cd build
 cmake -DWITH_TBB=OFF -DWITH_OPENMP=OFF -DWITH_PTHREADS_PF=OFF ..
-make opencv_perf_core opencv_perf_imgproc -j8
+make opencv_perf_core opencv_perf_imgproc opencv_perf_objdetect -j8
 
 
 cd bin
