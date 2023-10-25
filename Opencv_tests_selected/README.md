@@ -1,6 +1,7 @@
 ## Linux OpenCV select
 ### 环境准备
 ```
+sudo apt update
 sudo apt install python3-pip
 pip install pandas
 pip install openpyxl
