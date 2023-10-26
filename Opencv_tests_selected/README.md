@@ -2,6 +2,8 @@
 ### 环境准备
 ```
 sudo apt update
+sudo apt install cmake
+sudo apt install g++
 sudo apt install python3-pip
 pip install pandas
 pip install openpyxl
