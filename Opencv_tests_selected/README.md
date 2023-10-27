@@ -8,7 +8,7 @@ sh one_script_opencv_tests.sh
 ```
 
 ---
-
+**第二种**
 ### 环境准备
 ```
 sudo apt update
