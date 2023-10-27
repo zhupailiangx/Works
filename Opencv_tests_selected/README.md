@@ -61,6 +61,7 @@ options:
 python3 opencv_test_results_to_excel.py --input_path core_selected.ods --output_path core_selected.xlsx --Skew 12700 --File_Name core --Memory_type DDR4 --WW WW40 --Memory_Speed 3200MT/s --CPU_req 2100MHz
 ```
 或者
-python3 opencv_test_results_to_excel.py --input_path core_selected.ods --output_path core_selected.xlsx --Skew 12700 --File_Name core --Memory_type DDR4 --WW WW40 --Memory_Speed $(sudo dmidecode -t memory | awk '/Speed:.*MT\/s/ {gsub(/.*Speed:/,""); gsub(/ MT\/s.*/,"MT/s");print;exit}') --CPU_req 2100MHz
-
+```
+python3 opencv_test_results_to_excel.py --input_path core_selected.ods --output_path core_selected.xlsx --Skew $(cat /proc/cpuinfo | grep "model name" | awk '{print $NF}' | head -n 1) --File_Name core --Memory_type $(sudo dmidecode -t memory | grep "Type:" | awk '{print $2}' | grep 'DDR' | head -n 1) --WW WW40 --Memory_Speed $(sudo dmidecode -t memory | awk '/Speed:.*MT\/s/ {gsub(/.*Speed:/,""); gsub(/ MT\/s.*/,"MT/s");print;exit}') --CPU_req $(cat /sys/devices/system/cpu/cpu0/cpufreq/base_frequency | tr -d '\n' | rev | cut -c 4-7 | rev | awk '{print $1 "MHz"}')
+```
 
