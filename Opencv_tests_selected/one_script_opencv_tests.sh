@@ -1,4 +1,12 @@
 #!/bin/bash
+sudo apt update
+sudo apt install cmake
+sudo apt install g++
+sudo apt install python3-pip
+pip install pandas
+pip install openpyxl
+pip install lxml
+
 if [ ! -d build ]; then
 	mkdir build
 fi
