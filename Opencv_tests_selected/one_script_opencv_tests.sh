@@ -1,5 +1,11 @@
 #!/bin/bash
-python3 -m pip install --upgrade pip
+sudo apt update
+sudo apt install cmake
+sudo apt install g++
+sudo apt install python3-pip
+pip install --user pandas
+pip install --user openpyxl
+pip install --user lxml
 
 if [ ! -d build ]; then
 	mkdir build
