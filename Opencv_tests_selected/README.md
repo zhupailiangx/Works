@@ -10,7 +10,7 @@ sh one_script_opencv_tests.sh
 ```
 
 ---
-**第二个**
+**第二个方法**
 ### 环境准备
 ```
 sudo apt update
