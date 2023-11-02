@@ -2,7 +2,7 @@
 有两种方法
 ### 第一个方法
 下载opencv 源码 https://github.com/opencv/opencv/archive/refs/tags/4.8.0.zip, 
-下载 one_script_opencv_tests.sh 和opencv_test_results_to_excel.py,放到opencv 目录下
+下载 one_script_opencv_tests.sh 和opencv_test_results_to_excel.py,opencv_test_lists.xlsx,放到opencv 目录下
 
 配置环境
 ```
@@ -16,7 +16,7 @@ pip install lxml
 ```
 结果输出
 ```
-sh one_script_opencv_tests.sh
+sh opencv_tests_selected.sh
 ```
 
 ---
