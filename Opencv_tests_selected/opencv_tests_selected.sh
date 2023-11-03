@@ -1,11 +1,16 @@
-!/bin/bash
-#sudo apt update
-#sudo apt install cmake
-#sudo apt install g++
-#sudo apt install python3-pip
-#pip install pandas
-#pip install openpyxl
-#pip install lxml
+#!/bin/bash
+
+sudo apt update
+sudo apt install cmake
+sudo apt install g++
+sudo apt install python3-pip
+pip install pandas
+pip install openpyxl
+pip install lxml
+
+wget https://github.com/opencv/opencv/archive/refs/tags/4.8.0.zip
+unzip 4.8.0.zip
+cd opencv-4.8.0
 
 if [ ! -d build ]; then
 	mkdir build
@@ -31,4 +36,4 @@ python3 ../../modules/ts/misc/report.py imgproc_selected.xml -o html >imgproc_se
 
 python3 ../../modules/ts/misc/report.py objdetect_selected.xml -o html >objdetect_selected.ods
 
-python3 ../../opencv_test_results_to_excel.py --input_path core_selected.ods,imgproc_selected.ods,objdetect_selected.ods --output_path core_selected.xlsx --OS $(lsb_release -d |  awk '{print $2""$3}') --Skew $(cat /proc/cpuinfo | grep "model name" | awk '{print $NF}' | head -n 1) --File_Name core,imgproc,objdetect --Memory_type $(sudo dmidecode -t memory | grep "Type:" | awk '{print $2}' | grep 'DDR' | head -n 1) --WW WW40 --Memory_Speed $(sudo dmidecode -t memory | awk '/Speed:.*MT\/s/ {gsub(/.*Speed:/,""); gsub(/ MT\/s.*/,"MT/s");print;exit}') 
+python3 ../../../opencv_test_results_to_excel.py --input_path core_selected.ods,imgproc_selected.ods,objdetect_selected.ods --output_path ../../../opencv_result_data.xlsx --OS $(lsb_release -d |  awk '{print $2""$3}') --Skew $(cat /proc/cpuinfo | grep "model name" | awk '{print $NF}' | head -n 1) --File_Name core,imgproc,objdetect --Memory_type $(sudo dmidecode -t memory | grep "Type:" | awk '{print $2}' | grep 'DDR' | head -n 1) --WW WW40 --Memory_Speed $(sudo dmidecode -t memory | awk '/Speed:.*MT\/s/ {gsub(/.*Speed:/,""); gsub(/ MT\/s.*/,"MT/s");print;exit}') 
