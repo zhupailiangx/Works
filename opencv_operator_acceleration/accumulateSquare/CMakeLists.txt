@@ -19,9 +19,9 @@ endif()
 project(accumulateSquare LANGUAGES CXX)
 set(CMAKE_BUILD_TYPE Release)
 if(WIN32)
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} /Qopenmp")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} /Qiopenmp")
 else()
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fopenmp -O3 -mavx2")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fiopenmp -O3 -mavx2")
 endif()
 
 
