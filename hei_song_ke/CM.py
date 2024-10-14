@@ -82,4 +82,7 @@ if __name__=="__main__":
     model = model_prepared()
     data_prepared()
     img_emb,img_names =img_text_emb()
-    search("两只狗在雪地上跑",model,img_emb,img_names,k=1)
+    while True:
+        inputs = input("Enter your text: ")
+        search(inputs,model,img_emb,img_names,k=1)
+
